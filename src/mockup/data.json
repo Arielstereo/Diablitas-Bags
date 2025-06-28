@@ -1,0 +1,242 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Minibag-Chiara",
+      "price": 31500,
+      "image": [
+        "https://static.wixstatic.com/media/676d30_b00877c8d3614867bd18c95882ad41bd~mv2.jpg/v1/fill/w_500,h_667,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_b00877c8d3614867bd18c95882ad41bd~mv2.jpg",
+        "https://static.wixstatic.com/media/676d30_812aa619a8544d7c9cd0c32cde29cba1~mv2.jpg/v1/fill/w_500,h_667,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_812aa619a8544d7c9cd0c32cde29cba1~mv2.jpg"
+      ],
+      "description": "Minibag rígida.Confeccionada con cierre metalico y doble deslizador.Tira corta rígida para uso de minibag.Tira de cadena de 1,15m para uso de cartera. Detalles en niquel.",
+      "color": "negro",
+      "category": "minibags",
+      "sale": true,
+      "featured": true
+    },
+    {
+      "id": 2,
+      "name": "Minibag-Londres",
+      "price": 43700,
+      "image": [
+        "https://static.wixstatic.com/media/df8397_df1eb7757ebe4a2a9376eefccef8f7a6~mv2.jpg/v1/fill/w_550,h_625,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/df8397_df1eb7757ebe4a2a9376eefccef8f7a6~mv2.jpg",
+        "https://static.wixstatic.com/media/df8397_40949f5fa7804791be9bfd2cc8b6aa3b~mv2.jpg/v1/fill/w_550,h_625,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/df8397_40949f5fa7804791be9bfd2cc8b6aa3b~mv2.jpg"
+      ],
+      "description": "Minibag de eco cuero. Interior forrado en tela.Bolsillo interno con cierre. Viene con llave y candado.",
+      "color": "rojo",
+      "category": "minibags",
+      "sale": false,
+      "featured": true
+    },
+    {
+      "id": 3,
+      "name": "Destiny",
+      "price": 35900,
+      "image": [
+        "https://static.wixstatic.com/media/676d30_ec23121e3239421a9643ab4125f0f229~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_ec23121e3239421a9643ab4125f0f229~mv2.jpg",
+        "https://static.wixstatic.com/media/676d30_ca75cf3662604eb5a086a4380f6505fc~mv2.jpg/v1/fill/w_470,h_626,al_c,q_85,usm_0.66_1.00_0.01/676d30_ca75cf3662604eb5a086a4380f6505fc~mv2.jpg"
+      ],
+      "description": "Minibag de eco cuero. Forrado en su interior con bolsillo. Confeccionado con cierre metálico.Triple bolsillos externos adelante.Detalles en tachas en níquel.",
+      "color": "negro",
+      "category": "minibags",
+      "sale": false,
+      "featured": false
+    },
+    {
+      "id": 4,
+      "name": "MiniBag-Victoria",
+      "price": 44600,
+      "image": [
+        "https://static.wixstatic.com/media/df8397_e5bedd7b554d47f3b178883848b396ec~mv2.jpg/v1/fill/w_602,h_626,al_c,q_85,usm_0.66_1.00_0.01/df8397_e5bedd7b554d47f3b178883848b396ec~mv2.jpg",
+        "https://static.wixstatic.com/media/02cb6e_7fff0c45d6c74222bafd3e0ad89b2929~mv2.jpg/v1/fill/w_626,h_626,al_c,q_85,usm_0.66_1.00_0.01/02cb6e_7fff0c45d6c74222bafd3e0ad89b2929~mv2.jpg"
+      ],
+      "description": "Minibag confeccionodo en ecocuero. Interior forrado. Bolsillo interno con cierre. Cierre Metalizado. Herrajes niquelados. Correa desmontable.",
+      "color": "negro",
+      "category": "minibags",
+      "sale": true,
+      "featured": true
+    },
+    {
+      "id": 5,
+      "name": "Rubi-Bag",
+      "price": 31000,
+      "image": [
+        "https://static.wixstatic.com/media/676d30_07870ab9df5747d7aabe317034d8840d~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_07870ab9df5747d7aabe317034d8840d~mv2.jpg",
+        "https://static.wixstatic.com/media/676d30_e9dfa3bfa59a426f8020d598e87cedfd~mv2.jpg/v1/fill/w_470,h_626,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_e9dfa3bfa59a426f8020d598e87cedfd~mv2.jpg"
+      ],
+      "description": "Minibag pequeña de eco cuero. Toda forrada en su interior. Con bolsillo interno. Cierre metalico y detalles en niquel. Doble hebilla. Tira regulable con ojales",
+      "color": "rojo",
+      "category": "carteras",
+      "sale": false,
+      "featured": false
+    },
+    {
+      "id": 6,
+      "name": "Minibag-Cher",
+      "price": 38500,
+      "image": [
+        "https://static.wixstatic.com/media/df8397_538a7bde032b4a199275cd6b200d712c~mv2.jpg/v1/fill/w_626,h_626,al_c,q_85,usm_0.66_1.00_0.01/df8397_538a7bde032b4a199275cd6b200d712c~mv2.jpg",
+        "https://static.wixstatic.com/media/df8397_4c7b4560804d4449adebdefad19395d5~mv2.jpg/v1/fill/w_626,h_626,al_c,q_85,usm_0.66_1.00_0.01/df8397_4c7b4560804d4449adebdefad19395d5~mv2.jpg"
+      ],
+      "description": "Minibag confeccionodo en ecocuero. Interior forrado en tela. Bolsillos delanteros.",
+      "color": "negro",
+      "category": "minibags",
+      "sale": false,
+      "featured": true
+    },
+    {
+      "id": 7,
+      "name": "Cartera-Kian",
+      "price": 37600,
+      "image": [
+        "https://static.wixstatic.com/media/df8397_7b4bebd994b944728d3e7e38b3f4defc~mv2.jpg/v1/fill/w_626,h_626,al_c,q_85,usm_0.66_1.00_0.01/df8397_7b4bebd994b944728d3e7e38b3f4defc~mv2.jpg",
+        "https://static.wixstatic.com/media/df8397_33b4e418a9d64e94bd369cc46767ca80~mv2.jpg/v1/fill/w_626,h_626,al_c,q_85,usm_0.66_1.00_0.01/df8397_33b4e418a9d64e94bd369cc46767ca80~mv2.jpg"
+      ],
+      "description": "Bolso confeccionodo en ecocuero. Interior forrado en tela. Cierre metalico.Bolsillo interno.",
+      "color": "negro",
+      "category": "carteras",
+      "sale": true,
+      "featured": true
+    },
+    {
+      "id": 8,
+      "name": "Minibag-Kiki",
+      "price": 29000,
+      "image": [
+        "https://static.wixstatic.com/media/676d30_215cceeb631643c488adbec5858267e2~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_215cceeb631643c488adbec5858267e2~mv2.jpg",
+        "https://static.wixstatic.com/media/676d30_a7cafc0cf84d4bb185690200ac811423~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_a7cafc0cf84d4bb185690200ac811423~mv2.jpg"
+      ],
+      "description": "Minibag acharolada. Forrada en su interior. Con cierre. Tira corta fija. Detalle de tira con hebilla grande e imán.",
+      "color": "blanco",
+      "category": "minibags",
+      "sale": true,
+      "featured": false
+    },
+    {
+      "id": 9,
+      "name": "Minibag-Moscu",
+      "price": 33000,
+      "image": [
+        "https://static.wixstatic.com/media/676d30_d35bac432da44334859a84b7e7b6dd19~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_d35bac432da44334859a84b7e7b6dd19~mv2.jpg",
+        "https://static.wixstatic.com/media/676d30_d8c6974190c64074af842136c9fb9593~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_d8c6974190c64074af842136c9fb9593~mv2.jpg"
+      ],
+      "description": "Minibag de eco cuero. Todo forrado con bolsillo interno. Confeccionado con cierre metálico. Detalles de hebillas y tachas en níquel.",
+      "color": "negro",
+      "category": "minibags",
+      "sale": true,
+      "featured": false
+    },
+    {
+      "id": 10,
+      "name": "Cartera-Gissel",
+      "price": 29000,
+      "image": [
+        "https://static.wixstatic.com/media/676d30_d1f91b9aead64e83ad5236b7232eaba5~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_d1f91b9aead64e83ad5236b7232eaba5~mv2.jpg",
+        "https://static.wixstatic.com/media/676d30_fe29d2a483bd47c4ab2ec0edcb77ca78~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_fe29d2a483bd47c4ab2ec0edcb77ca78~mv2.jpg"
+      ],
+      "description": "Toda forrada en su interior. Con cierre metálico. Bolsillos externos en al parte frontal. Detalle de tira con ojalillos en níquel. Correa regulable y desmontable para uso de cartera.",
+      "color": "negro",
+      "category": "carteras",
+      "sale": true,
+      "featured": false
+    },
+    {
+      "id": 11,
+      "name": "Minibag-Milan",
+      "price": 38500,
+      "image": [
+        "https://static.wixstatic.com/media/676d30_bcdae18039f74c619bed3a4f9d9606fa~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_bcdae18039f74c619bed3a4f9d9606fa~mv2.jpg",
+        "https://static.wixstatic.com/media/676d30_e0bbcffe178242e283d824e542d960da~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_e0bbcffe178242e283d824e542d960da~mv2.jpg"
+      ],
+      "description": "Minibag de eco cuero. Con tapa y doble imán. Tira regulable y desmontable para uso de cartera. Incluye cadena corta para uso de minibag. Tira con hebilla y ojalillos como detalle en niquel.",
+      "color": "blanco",
+      "category": "minibags",
+      "sale": false,
+      "featured": true
+    },
+    {
+      "id": 12,
+      "name": "Minibag-Roma",
+      "price": 31500,
+      "image": [
+        "https://static.wixstatic.com/media/676d30_358fcfeb7aed44bdafd0f2ef03fc5631~mv2.jpg/v1/fill/w_500,h_667,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_358fcfeb7aed44bdafd0f2ef03fc5631~mv2.jpg",
+        "https://static.wixstatic.com/media/676d30_0f7c1bcfaebe4b90a1d8ab54a8cc8331~mv2.jpg/v1/fill/w_500,h_667,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_0f7c1bcfaebe4b90a1d8ab54a8cc8331~mv2.jpg"
+      ],
+      "description": "Minibag de gamuzón premium. Forrado con tela. Confeccionado con cierre metálico. Doble bolsillo externo a los costados.Tira con ojales para regular el largo.",
+      "color": "cherry",
+      "category": "minibags",
+      "sale": true,
+      "featured": true
+    },
+    {
+      "id": 13,
+      "name": "Minibag-Morena",
+      "price": 36700,
+      "image": [
+        "https://static.wixstatic.com/media/676d30_654cd5ab51224c59955d6495008c1ca3~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_654cd5ab51224c59955d6495008c1ca3~mv2.jpg",
+        "https://static.wixstatic.com/media/676d30_68851ce7c2ca4934b3da3bc642027874~mv2.jpg/v1/fill/w_470,h_626,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_68851ce7c2ca4934b3da3bc642027874~mv2.jpg"
+      ],
+      "description": "Minibag de eco cuero. Forrada en su interior con tela y bolsillo. Cierre metálico. Tira con ojales grandes regulables. Detalle de doble c invertida y tachas. Bolsillo externo atras.",
+      "color": "cherry",
+      "category": "minibags",
+      "sale": false,
+      "featured": false
+    },
+    {
+      "id": 14,
+      "name": "Cartera-Sharpey",
+      "price": 43700,
+      "image": [
+        "https://static.wixstatic.com/media/676d30_6eea0e7027eb454d8cdb2a6e505ee500~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_6eea0e7027eb454d8cdb2a6e505ee500~mv2.jpg",
+        "https://static.wixstatic.com/media/676d30_fea43bac79bf42d3ad8aab89f4cf469c~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_fea43bac79bf42d3ad8aab89f4cf469c~mv2.jpg"
+      ],
+      "description": "Cartera premium. Forrada y con bolsillo en su interior. Confeccionada con cierre. Tira regulable y desmontable.Detalles de ojalillos y hebilla grande en la parte frontal.",
+      "color": "negro",
+      "category": "carteras",
+      "sale": false,
+      "featured": true
+    },
+    {
+      "id": 15,
+      "name": "Totebag-Samara",
+      "price": 40200,
+      "image": [
+        "https://static.wixstatic.com/media/676d30_ce6d8c2ef8d74f168a26a6597bc559e9~mv2.jpg/v1/fill/w_470,h_626,al_c,q_85,usm_0.66_1.00_0.01/676d30_ce6d8c2ef8d74f168a26a6597bc559e9~mv2.jpg",
+        "https://static.wixstatic.com/media/676d30_486afb99f4444f6ebd121d6c91abc8be~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_486afb99f4444f6ebd121d6c91abc8be~mv2.jpg"
+      ],
+      "description": "Doble uso, es bolso y morral. Forrado con tela, Bolsillo interno y externo atrás. Detalle matelasseado en la parte frontal. Tira desmontables y regulable para uso de morral.",
+      "color": "negro",
+      "category": "totebags",
+      "sale": true,
+      "featured": false
+    },
+    {
+      "id": 16,
+      "name": "Totebag-Isadora",
+      "price": 49000,
+      "image": [
+        "https://static.wixstatic.com/media/676d30_b7cec52d071842b7b66f703f13451de8~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_b7cec52d071842b7b66f703f13451de8~mv2.jpg",
+        "https://static.wixstatic.com/media/676d30_146ba255492d496696f45b909c863482~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_146ba255492d496696f45b909c863482~mv2.jpg"
+      ],
+      "description": "Bolso de gamuzon. Forrado con tela en su interior y doble bolsillo interno. Cierre metálico. Doble manija para uso de bolso. Con correa regulable y desmontable para uso de morral",
+      "color": "negro",
+      "category": "totebags",
+      "sale": false,
+      "featured": false
+    },
+    {
+      "id": 17,
+      "name": "Minibag-Emily",
+      "price": 38500,
+      "image": [
+        "https://static.wixstatic.com/media/676d30_aead69fadeb1421f85a6fb88044b804e~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_aead69fadeb1421f85a6fb88044b804e~mv2.jpg",
+        "https://static.wixstatic.com/media/676d30_370ba22268c8490591a07c75e14c3d99~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_370ba22268c8490591a07c75e14c3d99~mv2.jpg"
+      ],
+      "description": "Minibag de eco cuero. Toda forrada en su interior con bolsillo. Detalles de hebilla en la parte frontal, tira regulable con ojalillos y detalles de argollones. Tira  regulable con hebilla cuadrada. Bolsillo externo atrás con cierres metalicos.",
+      "color": "blanco",
+      "category": "minibags",
+      "sale": false,
+      "featured": false
+    }
+  ]
+}
