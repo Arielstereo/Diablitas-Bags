@@ -15,7 +15,7 @@ const Header = () => {
   }, []);
 
   return (
-    <header className="hidden md:block">
+    <header className="hidden lg:block">
       <div
         className={`fixed top-0 left-0 w-full z-50 bg-white transition-all duration-300 ${
           scrolled ? "py-2" : ""

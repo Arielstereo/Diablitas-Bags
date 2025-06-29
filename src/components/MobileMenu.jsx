@@ -20,7 +20,7 @@ const MobileMenu = () => {
   return (
     <nav>
       {!isMenuOpen && (
-        <div className="block md:hidden">
+        <div className="block lg:hidden">
           <div className="flex justify-between">
             <div className="text-2xl text-center text-red-700 pt-5 pl-6 font-bold">
               <div className="flex gap-2">
@@ -37,7 +37,7 @@ const MobileMenu = () => {
             </div>
             <button
               onClick={toggleMenu}
-              className="md:hidden relative top-2 right-6 z-50 p-2 text-black duration-200"
+              className="lg:hidden relative top-2 right-6 z-50 p-2 text-black duration-200"
               aria-label="Abrir menú"
             >
               <i
@@ -55,7 +55,7 @@ const MobileMenu = () => {
 
       {/* Menú móvil */}
       <div
-        className={`md:hidden fixed inset-0 bg-white transition-all duration-300 ease-in-out z-50 ${
+        className={`lg:hidden fixed inset-0 bg-white transition-all duration-300 ease-in-out z-50 ${
           isMenuOpen ? "opacity-100 visible" : "opacity-0 invisible"
         }`}
       >

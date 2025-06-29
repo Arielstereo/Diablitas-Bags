@@ -15,7 +15,8 @@ export default function CategoryPage() {
       <section className="relative">
         <div className="container">
           <div className="w-full h-[500px] md:h-[700px]">
-            <div className="flex flex-col justify-center items-center relative z-10">
+            <div className="absolute inset-0 bg-black/40"></div>
+            <div className="absolute inset-0 flex flex-col items-center justify-center z-10 px-4">
               <div className="text-center mt-32 md:mt-96">
                 <h1 className="text-5xl md:text-7xl font-black text-slate-100 py-3 px-8">
                   {id.toUpperCase()}
@@ -28,7 +29,7 @@ export default function CategoryPage() {
                 alt="hero image"
                 width={400}
                 height={400}
-                className="w-full h-full object-cover shadow-xl opacity-85 hover:opacity-100"
+                className="w-full h-full object-cover shadow-xl"
               />
             </div>
           </div>

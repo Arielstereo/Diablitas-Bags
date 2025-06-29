@@ -24,7 +24,7 @@ const categories = [
 const Category = () => {
   return (
     <section className="my-16">
-      <div className="container px-6">
+      <div className="px-6">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
           {categories.map((category, index) => (
             <Link
@@ -39,7 +39,7 @@ const Category = () => {
                 height={80}
                 className="w-96 h-full overflow-hidden object-cover shadow-lg hover:scale-105 transition-transform"
               />
-              <p className="text-xl font-semibold mt-4 relative bg-black hover:bg-slate-900 transition-all duration-300 w-1/2 hover:w-2/3 hover:rounded-4xl py-4 text-white -top-32 left-24 md:left-32">
+              <p className="text-xl font-semibold mt-4 relative bg-black transition-all duration-300 w-1/2 hover:w-2/3 hover:rounded-4xl py-4 text-white -top-32 left-24 md:left-32">
                 {category.name}
               </p>
             </Link>

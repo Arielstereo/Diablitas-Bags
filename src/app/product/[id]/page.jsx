@@ -7,7 +7,6 @@ import { useState } from "react";
 
 const page = () => {
   const { id } = useParams();
-  console.log(products, id);
 
   const product = products.find((p) => p.name === id);
 
@@ -48,7 +47,7 @@ const page = () => {
                 }
                 onMouseLeave={() => setImage(product?.image[0])}
                 loading="lazy"
-                alt="Photo by Himanshu Dewangan"
+                alt="Photo"
                 width={400}
                 height={400}
                 className="h-full w-full object-cover object-center"
@@ -124,7 +123,10 @@ const page = () => {
 
             <div className="flex justify-center">
               <a
-                href="#"
+                href={`https://api.whatsapp.com/send?phone=1126922128&text=Hola%20quiero%20reservar%20la%20${encodeURIComponent(
+                  product.name
+                )}`}
+                target="_blank"
                 className="rounded-lg w-full bg-black hover:bg-slate-800 px-8 py-3 text-center text-xl font-semibold text-white transition duration-300"
               >
                 RESERVAR
