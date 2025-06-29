@@ -11,7 +11,7 @@ const categories = [
     name: "Carteras",
     image:
       "https://static.wixstatic.com/media/df8397_7b4bebd994b944728d3e7e38b3f4defc~mv2.jpg/v1/fill/w_550,h_625,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/df8397_7b4bebd994b944728d3e7e38b3f4defc~mv2.jpg",
-    href: "/category/bags-fiesta",
+    href: "/category/carteras",
   },
   {
     name: "Tote Bags",
