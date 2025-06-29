@@ -123,7 +123,7 @@ const page = () => {
 
             <div className="flex justify-center">
               <a
-                href={`https://api.whatsapp.com/send?phone=1126922128&text=Hola%20quiero%20reservar%20la%20${encodeURIComponent(
+                href={`https://api.whatsapp.com/send?phone=+5491126922128&text=Hola%20quiero%20reservar%20la%20${encodeURIComponent(
                   product.name
                 )}`}
                 target="_blank"
