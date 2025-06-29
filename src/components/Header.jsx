@@ -71,9 +71,8 @@ const Header = () => {
       {/* Espaciador para que el contenido no quede tapado por el header fijo */}
       <div className={scrolled ? "h-20" : "h-32"} />
       <div className="bg-black text-white flex justify-center items-center text-base font-semibold py-2">
-        <p className="animate-pulse">
-          Envios gratis a CABA con tu compra mayor a{" "}
-          <span className="text-yellow-200">$45.000</span>
+        <p className="animate-pulse text-lg">
+          Envios gratis zona Floresta, Villa Luro y Devoto
         </p>
       </div>
     </header>

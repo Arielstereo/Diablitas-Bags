@@ -48,10 +48,7 @@ const MobileMenu = () => {
             </button>
           </div>
           <div className="bg-black text-white flex justify-center items-center text-base font-semibold py-2">
-            <p className="animate-pulse">
-              Envios gratis a CABA con tu compra mayor a{" "}
-              <span className="text-yellow-200">$45.000</span>
-            </p>
+            <p className="animate-pulse">Envios gratis zona Floresta</p>
           </div>
         </div>
       )}

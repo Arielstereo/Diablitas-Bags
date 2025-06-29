@@ -6,17 +6,17 @@ const Products = () => {
   const featured = products.filter((p) => p.featured);
 
   return (
-    <section id="products" className="my-64 md:my-32">
+    <section id="products" className="my-32">
       <div className="container mx-auto px-4">
         <h2 className="text-2xl md:text-4xl font-bold text-center mb-12">
-          PRODUCTOS DESTACADOS
+          DESTACADOS
         </h2>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-x-4 gap-y-12 mx-4 md:mx-12">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-x-4 gap-y-12 mx-4 md:mx-12">
           {featured.map((product) => (
             <div key={product.id} className="group cursor-pointer">
               <Link
                 href={`/product/${product.name}`}
-                className="group relative mb-2 block h-80 overflow-hidden rounded-lg bg-gray-100 lg:mb-3"
+                className="group relative mb-2 block h-80 shadow-xl overflow-hidden rounded-lg hover:opacity-50 transition-all duration-300 lg:mb-3"
               >
                 <Image
                   src={product.image[0]}

@@ -18,13 +18,14 @@ const funel = Funnel_Display({
 });
 
 export const metadata = {
-  title: "Jazmin Bags",
-  description: "Venta de bolsos y accesorios de moda",
+  title: "Diablita's Bags",
+  description: "Venta de carteras, minibags, totebags",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="es">
+      <link rel="icon" href="/favicon.png" sizes="any" />
       <body className={`${zen.variable} ${funel.variable} antialiased`}>
         <Header />
         <MobileMenu />
