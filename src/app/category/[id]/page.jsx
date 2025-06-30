@@ -18,7 +18,7 @@ export default function CategoryPage() {
             <div className="absolute inset-0 bg-black/40"></div>
             <div className="absolute inset-0 flex flex-col items-center justify-center z-10 px-4">
               <div className="text-center mt-32 md:mt-96">
-                <h1 className="text-5xl md:text-7xl font-black text-slate-100 py-3 px-8">
+                <h1 className="text-4xl md:text-7xl font-black text-slate-100 py-3 px-8">
                   {id.toUpperCase()}
                 </h1>
               </div>

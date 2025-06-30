@@ -12,9 +12,10 @@ const MobileMenu = () => {
   };
 
   const menuItems = [
+    { href: "/category/bags", label: "Bags", key: "bags" },
     { href: "/category/minibags", label: "MiniBags", key: "minibags" },
     { href: "/category/totebags", label: "ToteBags", key: "totebags" },
-    { href: "/category/carteras", label: "Carteras", key: "carteras" },
+    { href: "/category/accesorios", label: "Accesorios", key: "accesorios" },
   ];
 
   return (

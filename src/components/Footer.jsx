@@ -13,7 +13,7 @@ const Footer = () => {
                   <p>Montecastro</p>
                 </li>
                 <li>
-                  <p>Villa del Parque</p>
+                  <p>Liniers</p>
                 </li>
                 <li>
                   <p>Villa Devoto</p>

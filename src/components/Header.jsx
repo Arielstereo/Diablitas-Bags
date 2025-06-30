@@ -48,6 +48,12 @@ const Header = () => {
             }`}
           >
             <Link
+              href="/category/bags"
+              className=" font-medium hover:text-gray-600"
+            >
+              Bags
+            </Link>
+            <Link
               href="/category/minibags"
               className=" font-medium hover:text-gray-600"
             >
@@ -58,12 +64,6 @@ const Header = () => {
               className=" font-medium hover:text-gray-600"
             >
               Tote Bags
-            </Link>
-            <Link
-              href="/category/bags"
-              className=" font-medium hover:text-gray-600"
-            >
-              Bags
             </Link>
             <Link
               href="/category/accesorios"
@@ -78,7 +78,7 @@ const Header = () => {
       <div className={scrolled ? "h-20" : "h-32"} />
       <div className="bg-black text-white flex justify-center items-center text-base font-semibold py-2">
         <p className="animate-pulse text-lg">
-          Envios gratis zona Floresta, Villa Luro y Devoto
+          Envios gratis en Floresta - Liniers - Villa Luro - Devoto
         </p>
       </div>
     </header>
