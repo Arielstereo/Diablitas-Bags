@@ -43,7 +43,7 @@ const Header = () => {
             <span> DIABLITA'S BAGS</span>
           </div>
           <nav
-            className={`md:flex space-x-16 transition-all duration-300 ${
+            className={`md:flex space-x-8 transition-all duration-300 ${
               scrolled ? "" : "mt-4"
             }`}
           >
@@ -60,10 +60,16 @@ const Header = () => {
               Tote Bags
             </Link>
             <Link
-              href="/category/carteras"
+              href="/category/bags"
               className=" font-medium hover:text-gray-600"
             >
-              Carteras
+              Bags
+            </Link>
+            <Link
+              href="/category/accesorios"
+              className=" font-medium hover:text-gray-600"
+            >
+              Accesorios
             </Link>
           </nav>
         </div>

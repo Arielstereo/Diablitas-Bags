@@ -9,6 +9,7 @@ const page = () => {
   const { id } = useParams();
 
   const product = products.find((p) => p.name === id);
+  console.log(product);
 
   const [image, setImage] = useState(product?.image[0]);
 
@@ -17,8 +18,10 @@ const page = () => {
     blanco: "bg-white",
     cherry: "bg-red-800",
     rojo: "bg-red-600",
-    plateado: "bg-gray-400",
+    plateado: "bg-gray-300",
     natural: "bg-orange-200",
+    chocolate: "bg-amber-600",
+    dorado: "bg-yellow-500",
   };
 
   return (
@@ -71,20 +74,26 @@ const page = () => {
             </div>
 
             <div className="mb-4 md:mb-6">
-              <span className="mb-3 inline-block text-sm font-semibold text-gray-500 md:text-base">
-                Color {product.color} (consulta por otros colores disponibles)
+              <span className="mb-3 inline-block text-sm lg:text-lg font-semibold text-gray-500 md:text-base">
+                Colores
               </span>
 
               <div className="flex flex-wrap gap-2">
-                <span
-                  className={`h-8 w-8 rounded-full animate-pulse ring-2 ring-gray-600 ${
-                    bagColor[product.color?.toLowerCase()]
-                  }`}
-                ></span>
+                {product.color.map((color, idx) => (
+                  <span
+                    key={idx}
+                    className={`h-8 w-8 rounded-full animate-pulse ring-2 ring-gray-600 ${
+                      bagColor[color.toLowerCase()]
+                    }`}
+                    title={color}
+                  ></span>
+                ))}
               </div>
             </div>
-
             <div className="py-6 w-2/3">
+              <span className="mb-3 inline-block text-sm lg:text-lg font-semibold text-gray-500 md:text-base">
+                Detalles del producto
+              </span>
               <p>{product.description}</p>
             </div>
 
