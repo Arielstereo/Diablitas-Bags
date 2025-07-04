@@ -394,7 +394,7 @@
       "description": "Cartera premium. Material PVC. Doble tira corta para uso de minibag. Tira regulable y desmontable para uso de cartera. Tira con ojalillos y hebilla e imán para asegurar.",
       "category": "bags",
       "sale": false,
-      "featured": true,
+      "featured": false,
       "color": [
         "negro",
         "blanco"
@@ -433,6 +433,39 @@
       "color": [
         "negro",
         "natural"
+      ]
+    },
+     {
+      "id": 26,
+      "name": "Dakota",
+      "price": 48100,
+      "image": [
+        "https://static.wixstatic.com/media/676d30_d06c72d6b1b245bb9c5350dbf2c49d94~mv2.jpg/v1/fill/w_470,h_626,al_c,q_85,usm_0.66_1.00_0.01/676d30_d06c72d6b1b245bb9c5350dbf2c49d94~mv2.jpg",
+        "https://static.wixstatic.com/media/676d30_80ff5dcff0f14f6ba772fd7aefbd4d07~mv2.jpg/v1/fill/w_470,h_626,al_c,q_85,usm_0.66_1.00_0.01/676d30_80ff5dcff0f14f6ba772fd7aefbd4d07~mv2.jpg"
+      ],
+      "description": "Mochila de eco cuero.Toda forrada en su interior con tela y bolsillo. Tiras regulables y reforzadas con doble costura. Confeccionada con eco cuero premium. Ideal para trabajo/estudio. Bolsillo grande en cajita con cierre metálico.",
+      "category": "mochilas",
+      "sale": false,
+      "featured": false,
+      "color": [
+        "negro",
+        "natural"
+      ]
+    },
+     {
+      "id": 27,
+      "name": "Zendaya",
+      "price": 41600,
+      "image": [
+        "https://static.wixstatic.com/media/676d30_222517b368a9479a96412afbbebc4611~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_222517b368a9479a96412afbbebc4611~mv2.jpg",
+        "https://static.wixstatic.com/media/676d30_3b348e5a3b574ee9b31eae13a970a76d~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_3b348e5a3b574ee9b31eae13a970a76d~mv2.jpg"
+      ],
+      "description": "Mochila de eco cuero.Toda forrada en su interior con tela. Tiras regulables. 4 bolsillos: uno interno y tres externos. Reforzado en cada extremo.",
+      "category": "mochilas",
+      "sale": false,
+      "featured": false,
+      "color": [
+        "negro"
       ]
     }
   ]

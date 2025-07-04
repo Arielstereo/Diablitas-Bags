@@ -65,6 +65,13 @@ const Header = () => {
             >
               Tote Bags
             </Link>
+
+            <Link
+              href="/category/mochilas"
+              className=" font-medium hover:text-gray-600"
+            >
+              Mochilas
+            </Link>
             <Link
               href="/category/accesorios"
               className=" font-medium hover:text-gray-600"
