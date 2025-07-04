@@ -246,7 +246,7 @@
     {
       "id": 15,
       "name": "Totebag-Samara",
-      "price": 40200,
+      "price": 39400,
       "image": [
         "https://static.wixstatic.com/media/676d30_ce6d8c2ef8d74f168a26a6597bc559e9~mv2.jpg/v1/fill/w_470,h_626,al_c,q_85,usm_0.66_1.00_0.01/676d30_ce6d8c2ef8d74f168a26a6597bc559e9~mv2.jpg",
         "https://static.wixstatic.com/media/676d30_5f7a7ed6020b407b91af652245153d63~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_5f7a7ed6020b407b91af652245153d63~mv2.jpg"
@@ -333,7 +333,7 @@
     {
       "id": 20,
       "name": "Totebag-Cali",
-      "price": 40600,
+      "price": 38500,
       "image": [
         "https://static.wixstatic.com/media/676d30_61e65e276a404afb8174d6efc884d059~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_61e65e276a404afb8174d6efc884d059~mv2.jpg",
         "https://static.wixstatic.com/media/676d30_76e5840b4c7a4c0aa3bcf2f4e6877aca~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_76e5840b4c7a4c0aa3bcf2f4e6877aca~mv2.jpg"
@@ -437,7 +437,7 @@
     },
      {
       "id": 26,
-      "name": "Dakota",
+      "name": "Mochila-Dakota",
       "price": 48100,
       "image": [
         "https://static.wixstatic.com/media/676d30_d06c72d6b1b245bb9c5350dbf2c49d94~mv2.jpg/v1/fill/w_470,h_626,al_c,q_85,usm_0.66_1.00_0.01/676d30_d06c72d6b1b245bb9c5350dbf2c49d94~mv2.jpg",
@@ -454,7 +454,7 @@
     },
      {
       "id": 27,
-      "name": "Zendaya",
+      "name": "Mochila-Zendaya",
       "price": 41600,
       "image": [
         "https://static.wixstatic.com/media/676d30_222517b368a9479a96412afbbebc4611~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_222517b368a9479a96412afbbebc4611~mv2.jpg",
@@ -466,6 +466,22 @@
       "featured": false,
       "color": [
         "negro"
+      ]
+    },
+     {
+      "id": 28,
+      "name": "Mochila-Praga",
+      "price": 26800,
+      "image": [
+        "https://static.wixstatic.com/media/df8397_d9e3599919d747ba930a11b00e8390db~mv2.jpg/v1/fill/w_550,h_625,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/df8397_d9e3599919d747ba930a11b00e8390db~mv2.jpg",
+        "https://static.wixstatic.com/media/df8397_f173241f3fee4619a252a261412b693f~mv2.jpg/v1/fill/w_550,h_625,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/df8397_f173241f3fee4619a252a261412b693f~mv2.jpg"
+      ],
+      "description": "Mochila de eco cuero.Compartimiento principal con cierre. Bolsillo Interno con cierre. Correas para los hombros ajustables.Ribetes contrastantes",
+      "category": "mochilas",
+      "sale": true,
+      "featured": false,
+      "color": [
+        "natural"
       ]
     }
   ]

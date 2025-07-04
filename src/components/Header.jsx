@@ -40,7 +40,7 @@ const Header = () => {
               height={100}
               alt="logo"
             />
-            <span> DIABLITA'S BAGS</span>
+            <Link href="/"> DIABLITA'S BAGS</Link>
           </div>
           <nav
             className={`md:flex space-x-8 transition-all duration-300 ${

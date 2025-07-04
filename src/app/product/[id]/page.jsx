@@ -75,7 +75,7 @@ const page = () => {
 
             <div className="mb-4 md:mb-6">
               <span className="mb-3 inline-block text-sm lg:text-lg font-semibold text-gray-500 md:text-base">
-                Colores
+                COLORES
               </span>
 
               <div className="flex flex-wrap gap-2">
@@ -92,7 +92,7 @@ const page = () => {
             </div>
             <div className="py-6 w-2/3">
               <span className="mb-3 inline-block text-sm lg:text-lg font-semibold text-gray-500 md:text-base">
-                Detalles del producto
+                DETALLES DEL PRODUCTO
               </span>
               <p>{product.description}</p>
             </div>
@@ -140,6 +140,16 @@ const page = () => {
               >
                 RESERVAR
               </a>
+            </div>
+
+            <div className="py-6 w-2/3">
+              <span className="mb-3 inline-block text-sm lg:text-lg font-semibold text-gray-500 md:text-base">
+                CAMBIOS
+              </span>
+              <p>
+                Solo realizamos cambios por fallas en el artículo, dentro de las
+                24hs de entregado el pedido.
+              </p>
             </div>
           </div>
         </div>

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://diablitas-bags.empren.dev/sitemap.xml

@@ -19,13 +19,19 @@ const categories = [
       "https://static.wixstatic.com/media/676d30_486afb99f4444f6ebd121d6c91abc8be~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_486afb99f4444f6ebd121d6c91abc8be~mv2.jpg",
     href: "/category/totebags",
   },
+  {
+    name: "Mochilas",
+    image:
+      "https://static.wixstatic.com/media/02cb6e_cb17938a631748a5bd2c6b9115126735~mv2.jpg/v1/fill/w_550,h_625,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/02cb6e_cb17938a631748a5bd2c6b9115126735~mv2.jpg",
+    href: "/category/mochilas",
+  },
 ];
 
 const Category = () => {
   return (
     <section className="my-16">
       <div className="px-6">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-2 mb-8">
           {categories.map((category, index) => (
             <Link
               key={index}

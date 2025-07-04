@@ -34,7 +34,7 @@ const MobileMenu = () => {
                   height={64}
                   className="w-8"
                 />
-                <span> Diablita's Bags</span>
+                <Link href="/"> Diablita's Bags</Link>
               </div>
             </div>
             <button
