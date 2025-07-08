@@ -7,17 +7,19 @@ const Socials = () => {
             Seguinos en Instagram
           </h2>
           <a
-            href="https://www.instagram.com/jazmin_bags/"
+            href="https://www.instagram.com/diablitas.bags/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <div className="flex gap-2 text-center items-center">
               <i
-                className="icon-[skill-icons--instagram] w-8 h-8"
+                className="icon-[skill-icons--instagram] w-10 h-10 rounded-full border border-slate-50 mx-2 animate-spin"
                 role="img"
                 aria-hidden="true"
               ></i>
-              <p className="text-xl font-semibold">@diablitas.bags</p>
+              <h1 className="text-2xl lg:text-3xl font-semibold hover:text-slate-200">
+                @diablitas.bags
+              </h1>
             </div>
           </a>
         </div>

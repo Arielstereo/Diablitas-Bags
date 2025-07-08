@@ -20,7 +20,7 @@ const funel = Funnel_Display({
 export const metadata = {
   title: "Diablita's Bags | Carteras, Minibags y Totebags",
   description:
-    "Descubrí la mejor selección de carteras, minibags y totebags en Diablita's Bags. Envíos a todo el país. ¡Nuevos modelos temporada Otoño Invierno 2025!",
+    "Descubrí la mejor selección de carteras, minibags y totebags en Diablita's Bags. ¡Nuevos modelos temporada Otoño Invierno 2025!",
   keywords: [
     "carteras",
     "minibags",
@@ -36,24 +36,6 @@ export const metadata = {
   authors: [
     { name: "Diablita's Bags", url: "https://diablitas-bags.empren.dev/" },
   ],
-  openGraph: {
-    title: "Diablita's Bags | Carteras, Minibags y Totebags",
-    description:
-      "Descubrí la mejor selección de carteras, minibags y totebags en Diablita's Bags. ¡Nuevos modelos temporada Otoño Invierno 2025!",
-    url: "https://diablitas-bags.empren.dev/",
-    siteName: "Diablita's Bags",
-    images: [
-      {
-        url: "/og-image.png",
-        width: 1200,
-        height: 630,
-        alt: "Diablita's Bags - Carteras y Minibags",
-      },
-    ],
-    locale: "es_AR",
-    type: "website",
-  },
-
   robots: "index, follow",
 };
 

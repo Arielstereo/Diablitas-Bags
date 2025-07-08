@@ -62,7 +62,15 @@ const Footer = () => {
         </div>
       </footer>
       <div className="bg-slate-100 text-black py-2 text-center w-full">
-        Creado por EmprenDev | 2025
+        Creado por{" "}
+        <a
+          href="https://empren.dev"
+          className="hover:text-sky-600"
+          target="_blank"
+        >
+          EmprenDev
+        </a>{" "}
+        | 2025
       </div>
     </div>
   );

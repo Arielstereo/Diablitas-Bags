@@ -1,18 +1,53 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import React, { useState, useEffect } from "react";
+import { products } from "../mockup/data.json";
+import { useRouter } from "next/navigation";
+import { useState, useEffect } from "react";
 
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);
+  const [search, setSearch] = useState("");
+  const [suggestions, setSuggestions] = useState([]);
+  const router = useRouter();
 
   useEffect(() => {
     const handleScroll = () => {
-      setScrolled(window.scrollY > 40); // Cambia el valor según el alto de tu header
+      setScrolled(window.scrollY > 40);
     };
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+  // Buscar productos por nombre
+  useEffect(() => {
+    if (search.length > 1) {
+      const filtered = products.filter((p) =>
+        p.name.toLowerCase().includes(search.toLowerCase())
+      );
+      setSuggestions(filtered.slice(0, 5));
+    } else {
+      setSuggestions([]);
+    }
+  }, [search]);
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const found = products.find(
+      (p) => p.name.toLowerCase() === search.toLowerCase()
+    );
+    if (found) {
+      router.push(`/product/${found.name}`);
+      setSearch("");
+      setSuggestions([]);
+    }
+  };
+
+  const handleSuggestionClick = (name) => {
+    router.push(`/product/${name}`);
+    setSearch("");
+    setSuggestions([]);
+  };
 
   return (
     <header className="hidden lg:block">
@@ -42,9 +77,10 @@ const Header = () => {
             />
             <Link href="/"> DIABLITA'S BAGS</Link>
           </div>
+
           <nav
             className={`md:flex space-x-8 transition-all duration-300 ${
-              scrolled ? "" : "mt-4"
+              scrolled ? "" : "my-4"
             }`}
           >
             <Link
@@ -65,7 +101,6 @@ const Header = () => {
             >
               Tote Bags
             </Link>
-
             <Link
               href="/category/mochilas"
               className=" font-medium hover:text-gray-600"
@@ -79,6 +114,28 @@ const Header = () => {
               Accesorios
             </Link>
           </nav>
+          <form onSubmit={handleSubmit} className="relative ml-8 w-64 my-4">
+            <input
+              type="text"
+              placeholder="Buscar"
+              value={search}
+              onChange={(e) => setSearch(e.target.value)}
+              className="border border-gray-300 rounded-lg px-3 py-1 w-full focus:outline-none focus:ring-2 focus:ring-rose-700"
+            />
+            {suggestions.length > 0 && (
+              <ul className="absolute left-0 right-0 bg-white border border-gray-200 rounded-lg mt-1 z-50 shadow-lg">
+                {suggestions.map((s) => (
+                  <li
+                    key={s.id}
+                    className="px-3 py-2 cursor-pointer hover:bg-gray-100"
+                    onClick={() => handleSuggestionClick(s.name)}
+                  >
+                    {s.name}
+                  </li>
+                ))}
+              </ul>
+            )}
+          </form>
         </div>
       </div>
       {/* Espaciador para que el contenido no quede tapado por el header fijo */}
