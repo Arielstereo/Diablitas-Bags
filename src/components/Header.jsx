@@ -53,7 +53,7 @@ const Header = () => {
     <header className="hidden lg:block">
       <div
         className={`fixed top-0 left-0 w-full z-50 bg-white transition-all duration-300 ${
-          scrolled ? "py-2" : ""
+          scrolled ? "py-2" : "pb-4"
         }`}
       >
         <div
@@ -63,24 +63,66 @@ const Header = () => {
               : "flex-col justify-center"
           }`}
         >
-          <div
-            className={`font-bold transition-all flex gap-4 duration-300 text-red-700 ${
-              scrolled ? "text-2xl" : "text-4xl pt-4"
-            }`}
-          >
-            <Image
-              className="w-10"
-              src="/logo_white.png"
-              width={100}
-              height={100}
-              alt="logo"
-            />
-            <Link href="/"> DIABLITA'S BAGS</Link>
+          <div className="flex">
+            <div
+              className={`font-bold transition-all flex gap-4 duration-300 text-red-700 ${
+                scrolled ? "text-2xl pt-2" : "text-4xl pt-4"
+              }`}
+            >
+              <Image
+                className={scrolled ? "w-10" : "w-12 h-12"}
+                src="/logo_white.png"
+                width={100}
+                height={100}
+                alt="logo"
+              />
+              <Link className="mt-1" href="/">
+                DIABLITA'S BAGS
+              </Link>
+            </div>
+            <div
+              className={
+                scrolled ? "absolute top-2 ml-96" : "absolute top-14 right-4"
+              }
+            >
+              <form
+                onSubmit={handleSubmit}
+                className={scrolled ? "hidden" : "relative ml-8 w-64 my-4"}
+              >
+                <span className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none">
+                  <span
+                    className="icon-[pixel--search] w-5 h-5 mt-2"
+                    role="img"
+                    aria-hidden="true"
+                  ></span>
+                </span>
+                <input
+                  type="text"
+                  placeholder="Buscar"
+                  value={search}
+                  onChange={(e) => setSearch(e.target.value)}
+                  className="border border-gray-500 rounded-lg px-10 py-1 w-full focus:outline-none focus:ring-2 focus:ring-rose-700"
+                />
+                {suggestions.length > 0 && (
+                  <ul className="absolute left-0 right-0 bg-white border border-gray-200 rounded-lg mt-1 z-50 shadow-lg">
+                    {suggestions.map((s) => (
+                      <li
+                        key={s.id}
+                        className="px-3 py-2 cursor-pointer hover:bg-gray-100"
+                        onClick={() => handleSuggestionClick(s.name)}
+                      >
+                        {s.name}
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </form>
+            </div>
           </div>
 
           <nav
             className={`md:flex space-x-8 transition-all duration-300 ${
-              scrolled ? "" : "my-4"
+              scrolled ? "" : "mt-4"
             }`}
           >
             <Link
@@ -114,28 +156,6 @@ const Header = () => {
               Accesorios
             </Link>
           </nav>
-          <form onSubmit={handleSubmit} className="relative ml-8 w-64 my-4">
-            <input
-              type="text"
-              placeholder="Buscar"
-              value={search}
-              onChange={(e) => setSearch(e.target.value)}
-              className="border border-gray-300 rounded-lg px-3 py-1 w-full focus:outline-none focus:ring-2 focus:ring-rose-700"
-            />
-            {suggestions.length > 0 && (
-              <ul className="absolute left-0 right-0 bg-white border border-gray-200 rounded-lg mt-1 z-50 shadow-lg">
-                {suggestions.map((s) => (
-                  <li
-                    key={s.id}
-                    className="px-3 py-2 cursor-pointer hover:bg-gray-100"
-                    onClick={() => handleSuggestionClick(s.name)}
-                  >
-                    {s.name}
-                  </li>
-                ))}
-              </ul>
-            )}
-          </form>
         </div>
       </div>
       {/* Espaciador para que el contenido no quede tapado por el header fijo */}

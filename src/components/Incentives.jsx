@@ -1,6 +1,6 @@
 const Incentives = () => {
   return (
-    <section className="-mt-16 lg:-mt-0">
+    <section className="-mt-8 lg:-mt-0">
       <div className="mx-auto border-b-2 border-gray-300">
         <div className="p-6">
           <div className="grid grid-cols-12 text-center">

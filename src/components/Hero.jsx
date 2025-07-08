@@ -23,7 +23,7 @@ const Hero = () => {
         {/* Capa oscura para mejor contraste */}
         <div className="absolute inset-0 bg-black/40"></div>
         {/* Contenido centrado */}
-        <div className="absolute inset-0 flex flex-col items-center justify-center z-10 px-4">
+        <div className="absolute inset-0 flex flex-col items-center justify-start mt-32 z-10 px-4">
           <h1 className="text-4xl xs:text-5xl md:text-7xl font-black text-slate-100 py-3 px-2 md:px-8 text-center drop-shadow-lg">
             NEW SEASON 25
           </h1>
