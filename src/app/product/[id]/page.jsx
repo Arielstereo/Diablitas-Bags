@@ -57,7 +57,7 @@ const page = () => {
               />
               {product.sale && (
                 <span className="absolute left-0 top-0 rounded-br-lg bg-red-500 px-3 py-1.5 text-sm uppercase tracking-wider text-white">
-                  Oferta
+                  Promo dia del amigo -15%
                 </span>
               )}
             </div>
@@ -99,10 +99,22 @@ const page = () => {
 
             <div className="mb-4">
               <div className="flex items-end gap-2">
-                <span className="text-xl font-bold text-gray-800 md:text-2xl">
-                  ${product.price}
-                </span>
-                {/* <span className="mb-0.5 text-red-500 line-through">$30.00</span> */}
+                {product.sale ? (
+                  <span className="font-bold text-gray-800 lg:text-lg">
+                    $
+                    {Math.floor((product.price - product.price * 0.15) / 100) *
+                      100}
+                  </span>
+                ) : (
+                  <span className="font-bold text-gray-800 lg:text-lg">
+                    $ {product.price}
+                  </span>
+                )}
+                {product.sale && (
+                  <span className="mb-0.5 text-red-500 line-through">
+                    ${product.price}
+                  </span>
+                )}
               </div>
 
               <span className="text-sm text-gray-500">

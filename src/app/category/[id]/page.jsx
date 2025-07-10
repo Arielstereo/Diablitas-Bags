@@ -68,7 +68,7 @@ export default function CategoryPage() {
 
                   {product.sale && (
                     <span className="absolute left-0 top-0 rounded-br-lg bg-red-500 px-3 py-1.5 text-sm uppercase tracking-wider text-white">
-                      oferta
+                      Promo dia del amigo -15%
                     </span>
                   )}
                 </Link>
@@ -82,12 +82,21 @@ export default function CategoryPage() {
                   </a>
 
                   <div className="flex items-end gap-2">
-                    <span className="font-bold text-gray-800 lg:text-lg">
-                      ${product.price}
-                    </span>
+                    {product.sale ? (
+                      <span className="font-bold text-gray-800 lg:text-lg">
+                        $
+                        {Math.floor(
+                          (product.price - product.price * 0.15) / 100
+                        ) * 100}
+                      </span>
+                    ) : (
+                      <span className="font-bold text-gray-800 lg:text-lg">
+                        $ {product.price}
+                      </span>
+                    )}
                     {product.sale && (
                       <span className="mb-0.5 text-red-500 line-through">
-                        ${product.price + 5000}
+                        ${product.price}
                       </span>
                     )}
                   </div>

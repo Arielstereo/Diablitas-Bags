@@ -13,7 +13,7 @@ const Socials = () => {
           >
             <div className="flex gap-2 text-center items-center">
               <i
-                className="icon-[skill-icons--instagram] w-10 h-10 rounded-full border border-slate-50 mx-2 animate-spin"
+                className="icon-[skill-icons--instagram] w-10 h-10 rounded-full border border-slate-50 mx-2 animate-pulse"
                 role="img"
                 aria-hidden="true"
               ></i>

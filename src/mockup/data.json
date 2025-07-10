@@ -10,8 +10,8 @@
       ],
       "description": "Minibag rígida.Confeccionada con cierre metalico y doble deslizador.Tira corta rígida para uso de minibag.Tira de cadena de 1,15m para uso de cartera. Detalles en niquel.",
       "category": "minibags",
-      "sale": true,
-      "featured": true,
+      "sale": false,
+      "featured": false,
       "color": [
         "negro",
         "plateado"
@@ -28,7 +28,7 @@
       "description": "Minibag de eco cuero. Interior forrado en tela.Bolsillo interno con cierre. Viene con llave y candado.",
       "category": "minibags",
       "sale": false,
-      "featured": true,
+      "featured": false,
       "color": [
         "negro",
         "rojo"
@@ -45,8 +45,8 @@
       ],
       "description": "Minibag de eco cuero. Forrado en su interior con bolsillo. Confeccionado con cierre metálico.Triple bolsillos externos adelante.Detalles en tachas en níquel.",
       "category": "minibags",
-      "sale": false,
-      "featured": false,
+      "sale": true,
+      "featured": true,
       "color": [
         "negro",
         "blanco",
@@ -99,7 +99,7 @@
       "description": "Minibag confeccionodo en ecocuero. Interior forrado en tela. Bolsillos delanteros.",
       "category": "minibags",
       "sale": false,
-      "featured": true,
+      "featured": false,
       "color": [
         "negro"
       ]
@@ -130,7 +130,7 @@
       ],
       "description": "Minibag acharolada. Forrada en su interior. Con cierre. Tira corta fija. Detalle de tira con hebilla grande e imán.",
       "category": "minibags",
-      "sale": true,
+      "sale": false,
       "featured": false,
       "color": [
         "blanco"
@@ -146,7 +146,7 @@
       ],
       "description": "Minibag de eco cuero. Todo forrado con bolsillo interno. Confeccionado con cierre metálico. Detalles de hebillas y tachas en níquel.",
       "category": "minibags",
-      "sale": true,
+      "sale": false,
       "featured": false,
       "color": [
         "negro",
@@ -164,7 +164,7 @@
       ],
       "description": "Toda forrada en su interior. Con cierre metálico. Bolsillos externos en al parte frontal. Detalle de tira con ojalillos en níquel. Correa regulable y desmontable para uso de Bag.",
       "category": "bags",
-      "sale": true,
+      "sale": false,
       "featured": false,
       "color": [
         "negro",
@@ -181,7 +181,7 @@
       ],
       "description": "Minibag de eco cuero. Con tapa y doble imán. Tira regulable y desmontable para uso de Bag. Incluye cadena corta para uso de minibag. Tira con hebilla y ojalillos como detalle en niquel.",
       "category": "minibags",
-      "sale": false,
+      "sale": true,
       "featured": true,
       "color": [
         "negro",
@@ -198,8 +198,8 @@
       ],
       "description": "Minibag de gamuzón premium. Forrado con tela. Confeccionado con cierre metálico. Doble bolsillo externo a los costados.Tira con ojales para regular el largo.",
       "category": "minibags",
-      "sale": true,
-      "featured": true,
+      "sale": false,
+      "featured": false,
       "color": [
         "negro",
         "gris",
@@ -217,8 +217,8 @@
       ],
       "description": "Minibag de eco cuero. Forrada en su interior con tela y bolsillo. Cierre metálico. Tira con ojales grandes regulables. Detalle de doble c invertida y tachas. Bolsillo externo atras.",
       "category": "minibags",
-      "sale": false,
-      "featured": false,
+      "sale": true,
+      "featured": true,
       "color": [
         "negro",
         "chocolate",
@@ -235,7 +235,7 @@
       ],
       "description": "Cartera premium. Forrada y con bolsillo en su interior. Confeccionada con cierre. Tira regulable y desmontable.Detalles de ojalillos y hebilla grande en la parte frontal.",
       "category": "bags",
-      "sale": false,
+      "sale": true,
       "featured": true,
       "color": [
         "negro",
@@ -253,7 +253,7 @@
       ],
       "description": "Doble uso, es bolso y morral. Forrado con tela, Bolsillo interno y externo atrás. Detalle matelasseado en la parte frontal. Tira desmontables y regulable para uso de morral.",
       "category": "totebags",
-      "sale": true,
+      "sale": false,
       "featured": false,
       "color": [
         "negro",
@@ -287,8 +287,8 @@
       ],
       "description": "Minibag de eco cuero. Toda forrada en su interior con bolsillo. Detalles de hebilla en la parte frontal, tira regulable con ojalillos y detalles de argollones. Tira  regulable con hebilla cuadrada. Bolsillo externo atrás con cierres metalicos.",
       "category": "minibags",
-      "sale": false,
-      "featured": false,
+      "sale": true,
+      "featured": true,
       "color": [
         "negro",
         "blanco",
@@ -306,7 +306,7 @@
       "description": "Minibag de eco cuero. Confeccionada con cierre metálico y doble deslizador.Tira corta regulable.Estilo minimalista.",
       "category": "minibags",
       "sale": true,
-      "featured": false,
+      "featured": true,
       "color": [
         "natural",
         "chocolate"
@@ -340,7 +340,7 @@
       ],
       "description": "Baul de eco cuero premium. Forrado con tela en su interior, con bolsillo. Confeccionado con cierre metálico. Doble bolsillo externo en la parte frontal.Doble tiras para uso de totebag. Tira regulable de 1,10m para uso de cartera. Detalle de tachas y herrajes pesados en niquel.",
       "category": "totebags",
-      "sale": true,
+      "sale": false,
       "featured": false,
       "color": [
         "negro",
@@ -478,10 +478,44 @@
       ],
       "description": "Mochila de eco cuero.Compartimiento principal con cierre. Bolsillo Interno con cierre. Correas para los hombros ajustables.Ribetes contrastantes",
       "category": "mochilas",
-      "sale": true,
+      "sale": false,
       "featured": false,
       "color": [
         "natural"
+      ]
+    },
+     {
+      "id": 29,
+      "name": "Mochila-bolso",
+      "price": 44600,
+      "image": [
+        "https://static.wixstatic.com/media/02cb6e_c0c7b4464a8945f589b2c8280c230a04~mv2.jpg/v1/fill/w_550,h_625,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/02cb6e_c0c7b4464a8945f589b2c8280c230a04~mv2.jpg",
+        "https://static.wixstatic.com/media/02cb6e_afc09a20178e4ce3bfe9cd4c9c948d9d~mv2.jpg/v1/fill/w_550,h_625,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/02cb6e_afc09a20178e4ce3bfe9cd4c9c948d9d~mv2.jpg"
+      ],
+      "description": "Bolso Mochila confeccionodo en Andorra. Interior forrado. Interior con bolsillo con cierre. Bolsillo con cierre atras. Herrajes Niquelados.",
+      "category": "mochilas",
+      "sale": false,
+      "featured": false,
+      "color": [
+        "negro",
+        "chocolate",
+        "rojo"
+      ]
+    },
+      {
+      "id": 30,
+      "name": "Cartera-Morral",
+      "price": 43700,
+      "image": [
+        "https://static.wixstatic.com/media/df8397_bbabac6c64de415a84e9c4d8e5c5fc9d~mv2.jpg/v1/fill/w_550,h_625,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/df8397_bbabac6c64de415a84e9c4d8e5c5fc9d~mv2.jpg",
+        "https://static.wixstatic.com/media/df8397_098a8b3f5fb040d3aa4092f8c7b7aa59~mv2.jpg/v1/fill/w_550,h_625,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/df8397_098a8b3f5fb040d3aa4092f8c7b7aa59~mv2.jpg"
+      ],
+      "description": "Cartera confeccionodo en Andorra. Interior forrado. Incluye correa desmontable y regulable. Interior con bolsillo con cierre. Herrajes Niquelados.",
+      "category": "bags",
+      "sale": false,
+      "featured": false,
+      "color": [
+        "negro"
       ]
     }
   ]

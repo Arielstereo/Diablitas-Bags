@@ -160,9 +160,11 @@ const Header = () => {
       </div>
       {/* Espaciador para que el contenido no quede tapado por el header fijo */}
       <div className={scrolled ? "h-20" : "h-32"} />
-      <div className="bg-black text-white flex justify-center items-center text-base font-semibold py-2">
-        <p className="animate-pulse text-lg">
-          Envios gratis en Floresta - Liniers - Villa Luro - Devoto
+      <div className="bg-black text-slate-200 flex justify-center items-center py-2 overflow-hidden">
+        <p className="marquee text-base">
+          Envios sin cargo en:&nbsp; Floresta &nbsp;- &nbsp; Monte Castro
+          &nbsp;- &nbsp; Liniers &nbsp;- &nbsp; Devoto &nbsp; | &nbsp; Promo día
+          del amigo 15% OFF en DESTACADOS del 10 al 20 de Julio! &nbsp;
         </p>
       </div>
     </header>

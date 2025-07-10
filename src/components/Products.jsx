@@ -8,7 +8,7 @@ const Products = () => {
   return (
     <section id="products" className="my-32">
       <div className="container mx-auto px-4">
-        <h2 className="text-2xl md:text-4xl font-bold text-center mb-12">
+        <h2 className="text-3xl md:text-5xl font-bold text-center mb-12">
           DESTACADOS
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-x-4 gap-y-12 mx-4 md:mx-12">
@@ -27,13 +27,12 @@ const Products = () => {
                 />
                 {product.sale && (
                   <span className="absolute z-10 left-0 top-0 rounded-br-lg bg-red-500 px-3 py-1.5 text-sm uppercase tracking-wider text-white">
-                    Oferta
+                    Promo dia del amigo -15%
                   </span>
                 )}
               </Link>
               <div className="space-y-1">
                 <h3 className="font-medium text-lg">{product.name}</h3>
-                <p className="font-bold text-lg">${product.price}</p>
               </div>
             </div>
           ))}

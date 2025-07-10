@@ -34,7 +34,7 @@ const MobileMenu = () => {
                   height={64}
                   className="w-8"
                 />
-                <Link href="/"> Diablita's Bags</Link>
+                <Link href="/"> DIABLITA'S BAGS</Link>
               </div>
             </div>
             <button
@@ -49,8 +49,12 @@ const MobileMenu = () => {
               ></i>
             </button>
           </div>
-          <div className="bg-black text-white flex justify-center items-center text-base font-semibold py-2">
-            <p className="animate-pulse">Envios gratis zona Floresta</p>
+          <div className="bg-black text-slate-200 flex justify-center items-center text-base py-2 overflow-hidden">
+            <p className="marquee text-base">
+              Envios sin cargo en:&nbsp; Floresta &nbsp;- &nbsp; Monte Castro
+              &nbsp;- &nbsp; Liniers &nbsp;- &nbsp; Devoto &nbsp; | &nbsp; Promo
+              día del amigo 15% OFF en DESTACADOS del 10 al 20 de Julio! &nbsp;
+            </p>
           </div>
         </div>
       )}
