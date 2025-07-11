@@ -1,7 +1,7 @@
 const Incentives = () => {
   return (
     <section className="-mt-8 lg:-mt-0">
-      <div className="mx-auto border-b-2 border-gray-300">
+      <div className="mx-auto border-y-2 border-gray-300">
         <div className="p-6">
           <div className="grid grid-cols-12 text-center">
             <div className="col-span-12 sm:col-span-6 lg:col-span-4">

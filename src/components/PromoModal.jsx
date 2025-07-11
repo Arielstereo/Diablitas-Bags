@@ -20,7 +20,7 @@ const PromoModal = () => {
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60">
-      <div className="bg-white rounded-xl shadow-2xl p-8 lg:p-12 w-full lg:w-3/4 text-center relative">
+      <div className="bg-slate-100 rounded-xl shadow-2xl p-8 lg:p-12 w-full lg:w-3/4 text-center relative">
         <button
           onClick={() => setOpen(false)}
           className="absolute top-0 right-0 lg:right-1 text-gray-600 hover:text-black text-4xl font-bold cursor-pointer"
