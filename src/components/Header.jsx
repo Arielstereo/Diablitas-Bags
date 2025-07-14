@@ -4,6 +4,7 @@ import Link from "next/link";
 import { products } from "../mockup/data.json";
 import { useRouter } from "next/navigation";
 import { useState, useEffect } from "react";
+import SearchInput from "./SearchInput";
 
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -11,6 +12,13 @@ const Header = () => {
   const [suggestions, setSuggestions] = useState([]);
   const router = useRouter();
 
+  const placeholders = [
+    "Buscar...",
+    "minibags",
+    "totebags",
+    "mochilas",
+    "bags",
+  ];
   useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 40);
@@ -52,7 +60,7 @@ const Header = () => {
   return (
     <header className="hidden lg:block">
       <div
-        className={`fixed top-0 left-0 w-full z-50 bg-white transition-all duration-300 ${
+        className={`fixed top-0 left-0 w-full z-50 bg-slate-100 transition-all duration-300 ${
           scrolled ? "py-2" : "pb-4"
         }`}
       >
@@ -96,12 +104,10 @@ const Header = () => {
                     aria-hidden="true"
                   ></span>
                 </span>
-                <input
-                  type="text"
-                  placeholder="Buscar"
-                  value={search}
-                  onChange={(e) => setSearch(e.target.value)}
-                  className="border border-gray-500 rounded-lg px-10 py-1 w-full focus:outline-none focus:ring-2 focus:ring-rose-700"
+                <SearchInput
+                  searchValue={search}
+                  setSearchValue={setSearch}
+                  placeholders={placeholders}
                 />
                 {suggestions.length > 0 && (
                   <ul className="absolute left-0 right-0 bg-white border border-gray-200 rounded-lg mt-1 z-50 shadow-lg">

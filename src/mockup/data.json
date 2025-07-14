@@ -524,7 +524,7 @@
       "category": "mochilas",
       "sale": false,
       "featured": false,
-      "new": false,
+      "new": true,
       "color": [
         "negro",
         "chocolate",
@@ -543,7 +543,7 @@
       "category": "bags",
       "sale": false,
       "featured": false,
-      "new": false,
+      "new": true,
       "color": [
         "negro"
       ]

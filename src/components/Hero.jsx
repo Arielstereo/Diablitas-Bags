@@ -32,7 +32,7 @@ const Hero = () => {
           </h2>
           <button
             onClick={() => scrollToSection("products")}
-            className="bg-rose-800 font-bold text-lg md:text-xl mt-8 md:mt-12 py-2 md:py-3 px-8 md:px-12 hover:px-14 hover:py-4 transition-all duration-300 border cursor-pointer border-white text-white hover:bg-rose-700"
+            className="py-3 px-10 hover:px-16 border-2 border-white rounded-tl-[30px] rounded-br-[30px] hover:bg-black bg-red-700 text-white text-2xl mt-12 font-bold cursor-pointer transition-all duration-200"
           >
             DESTACADOS
           </button>

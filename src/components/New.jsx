@@ -1,41 +1,42 @@
+"use client";
+
 import Image from "next/image";
 import { products } from "../mockup/data.json";
-import Link from "next/link";
+import { useEffect, useState } from "react";
 
 const NewProducts = () => {
-  const newProduct = products.filter((p) => p.new);
+  const [currentSlide, setCurrentSlide] = useState(0);
+  const slides = products.filter((p) => p.new);
+
+  useEffect(() => {
+    const autoSlide = setInterval(() => {
+      setCurrentSlide((prev) => (prev + 1) % slides.length);
+    }, 1500);
+
+    return () => clearInterval(autoSlide);
+  }, [slides.length]);
 
   return (
-    <section className="my-32">
+    <section className="mb-32">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl md:text-5xl font-bold text-center mb-12">
-          NOVEDADES
-        </h2>
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-x-4 gap-y-12 mx-4 md:mx-12">
-          {newProduct.map((product) => (
-            <div key={product.id} className="group cursor-pointer">
-              <Link
-                href={`/product/${product.name}`}
-                className="group relative mb-2 block h-80 shadow-xl overflow-hidden rounded-lg hover:opacity-50 transition-all duration-300 lg:mb-3"
-              >
+        <h2 className="text-2xl font-bold text-center mb-8">NUEVOS INGRESOS</h2>
+        <div className="relative flex items-center justify-center w-full">
+          <div className="w-[400px]">
+            {
+              <div className="flex flex-col gap-4">
                 <Image
-                  src={product.image[0]}
-                  alt={product.name}
-                  width={300}
-                  height={300}
-                  className="w-full h-full object-cover"
+                  width={100}
+                  height={100}
+                  src={slides[currentSlide].image[0]}
+                  alt={slides[currentSlide].name}
+                  className="w-full object-cover"
                 />
-                {product.sale && (
-                  <span className="absolute z-10 left-0 top-0 rounded-br-lg bg-red-500 px-3 py-1.5 text-sm uppercase tracking-wider text-white">
-                    Promo dia del amigo -15%
-                  </span>
-                )}
-              </Link>
-              <div className="space-y-1">
-                <h3 className="font-medium text-lg">{product.name}</h3>
+                <span className="text-lg text-center">
+                  {slides[currentSlide].name}
+                </span>
               </div>
-            </div>
-          ))}
+            }
+          </div>
         </div>
       </div>
     </section>
