@@ -9,7 +9,7 @@ const Incentives = () => {
             {/* Reservá */}
             <div className="flex flex-col justify-center items-center gap-4 w-full">
               <i
-                className="icon-[tdesign--shop] text-3xl lg:text-5xl"
+                className="icon-[tdesign--shop] text-4xl lg:text-5xl"
                 role="img"
                 aria-hidden="true"
               ></i>
@@ -25,7 +25,7 @@ const Incentives = () => {
             {/* Entregas sin cargo */}
             <div className="flex flex-col justify-center items-center gap-4 w-full">
               <span
-                className="icon-[carbon--delivery] text-3xl lg:text-5xl"
+                className="icon-[carbon--delivery] text-4xl lg:text-5xl"
                 role="img"
                 aria-hidden="true"
               ></span>
@@ -41,7 +41,7 @@ const Incentives = () => {
             {/* Aboná */}
             <div className="flex flex-col justify-center items-center gap-4 w-full">
               <span
-                className="icon-[streamline-ultimate--cash-payment-bills-bold] text-3xl lg:text-5xl"
+                className="icon-[streamline-ultimate--cash-payment-bills-bold] text-4xl lg:text-5xl"
                 role="img"
                 aria-hidden="true"
               ></span>
@@ -57,7 +57,7 @@ const Incentives = () => {
             {/* Reservá */}
             <div className="flex flex-col justify-center items-center gap-4 w-full">
               <i
-                className="icon-[tdesign--shop] text-3xl lg:text-5xl"
+                className="icon-[tdesign--shop] text-4xl lg:text-5xl"
                 role="img"
                 aria-hidden="true"
               ></i>
@@ -73,7 +73,7 @@ const Incentives = () => {
             {/* Entregas sin cargo */}
             <div className="flex flex-col justify-center items-center gap-4 w-full">
               <span
-                className="icon-[carbon--delivery] text-3xl lg:text-5xl"
+                className="icon-[carbon--delivery] text-4xl lg:text-5xl"
                 role="img"
                 aria-hidden="true"
               ></span>
@@ -89,7 +89,7 @@ const Incentives = () => {
             {/* Aboná */}
             <div className="flex flex-col justify-center items-center gap-4 w-full">
               <span
-                className="icon-[streamline-ultimate--cash-payment-bills-bold] text-3xl lg:text-5xl"
+                className="icon-[streamline-ultimate--cash-payment-bills-bold] text-4xl lg:text-5xl"
                 role="img"
                 aria-hidden="true"
               ></span>
@@ -113,12 +113,7 @@ const Incentives = () => {
               <h2 className="text-lg text-red-600 lg:text-2xl font-semibold">
                 DIABLITA'S BAGS
               </h2>
-            </div>{" "}
-            <div className="flex items-center justify-center">
-              <h2 className="text-lg lg:text-2xl font-semibold">
-                DIABLITA'S BAGS
-              </h2>
-            </div>{" "}
+            </div>
             <div className="flex items-center justify-center">
               <h2 className="text-lg lg:text-2xl font-semibold">
                 DIABLITA'S BAGS
@@ -128,9 +123,14 @@ const Incentives = () => {
               <h2 className="text-lg text-red-600 lg:text-2xl font-semibold">
                 DIABLITA'S BAGS
               </h2>
-            </div>{" "}
+            </div>
             <div className="flex items-center justify-center">
               <h2 className="text-lg lg:text-2xl font-semibold">
+                DIABLITA'S BAGS
+              </h2>
+            </div>{" "}
+            <div className="flex items-center justify-center">
+              <h2 className="text-lg text-red-600 lg:text-2xl font-semibold">
                 DIABLITA'S BAGS
               </h2>
             </div>
