@@ -60,8 +60,8 @@ const Header = () => {
   return (
     <header className="hidden lg:block">
       <div
-        className={`fixed top-0 left-0 w-full z-50 bg-slate-100 transition-all duration-300 ${
-          scrolled ? "py-2" : "pb-4"
+        className={`fixed top-0 left-0 w-full z-50 bg-slate-100 shadow-2xl transition-all duration-300 ${
+          scrolled ? "py-2" : "pb-6"
         }`}
       >
         <div

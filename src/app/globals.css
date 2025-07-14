@@ -5,7 +5,7 @@ body {
   @apply bg-white text-gray-900;
 }
 
-h1{
+h1 {
   font-family: var(--font-zent-dots);
 }
 
@@ -14,11 +14,44 @@ body {
 }
 
 @keyframes marquee {
-  0% { transform: translateX(100%); }
-  100% { transform: translateX(-100%); }
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
 }
+
 .marquee {
   white-space: nowrap;
   display: inline-block;
   animation: marquee 25s linear infinite;
+}
+
+.animate-marquee {
+  animation: marqueeLeft 15s linear infinite;
+}
+
+@keyframes marqueeLeft {
+    from {
+        transform: translateX(10%)
+    }
+    to {
+        transform: translateX(-100%)
+    }
+}
+
+
+.marqueeSliderRight {
+    animation: marqueeRight 20s linear infinite;
+}
+
+@keyframes marqueeRight {
+    from {
+        transform: translateX(-100%)
+    }
+    to {
+        transform: translateX(100%)
+    }
 }

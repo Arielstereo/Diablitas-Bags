@@ -17,14 +17,14 @@ const SearchInput = ({ placeholders, searchValue, setSearchValue }) => {
   }, [searchValue, placeholders.length]);
 
   return (
-    <div className="relative w-full mb-4 border border-gray-300 rounded-lg">
+    <div className="relative w-full mb-4 border border-gray-600 rounded-lg">
       <input
         type="text"
         value={searchValue}
         onFocus={() => setIsFocused(true)}
         onBlur={() => setIsFocused(false)}
         onChange={(e) => setSearchValue(e.target.value)}
-        className="w-full py-2 focus:border-[#0FABCA] rounded-lg border border-transparent outline-none pr-3 pl-12"
+        className="w-full py-2 focus:border-red-600 rounded-lg border border-transparent outline-none pr-3 pl-12"
       />
       {!searchValue && !isFoucsed && (
         <div className="absolute left-12 top-1/2 transform -translate-y-1/2 pointer-events-none">
