@@ -20,10 +20,10 @@ const PromoModal = () => {
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60">
-      <div className="bg-slate-100 rounded-xl shadow-2xl p-8 lg:p-12 w-full lg:w-3/4 text-center relative">
+      <div className="bg-black border-2 border-gray-200 rounded-xl shadow-2xl p-8 lg:p-12 w-full lg:w-3/4 text-center relative">
         <button
           onClick={() => setOpen(false)}
-          className="absolute top-0 right-0 lg:right-1 text-gray-600 hover:text-black text-4xl font-bold cursor-pointer"
+          className="absolute top-0 right-0 lg:right-1 text-gray-100 hover:text-gray-300 hover:animate-pulse text-4xl font-bold cursor-pointer"
           aria-label="Cerrar"
         >
           <span
@@ -39,7 +39,7 @@ const PromoModal = () => {
             className="w-full h-full"
           />
 
-          <div className="bg-black p-5 lg:p-12">
+          <div className="bg-slate-900 p-5 lg:p-12">
             <span className="text-2xl lg:text-3xl font-semibold text-pink-400">
               Promo día del amig@
             </span>

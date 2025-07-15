@@ -3,6 +3,7 @@ import Link from "next/link";
 import { useParams } from "next/navigation";
 import { products } from "../../../mockup/data.json";
 import Image from "next/image";
+import Brand from "@/components/Brand";
 
 export default function CategoryPage() {
   const params = useParams();
@@ -12,12 +13,13 @@ export default function CategoryPage() {
 
   return (
     <section>
-      <section className="relative">
+      <Brand />
+      <div className="relative">
         <div className="container">
           <div className="w-full h-[500px] md:h-[700px]">
             <div className="absolute inset-0 bg-black/40"></div>
             <div className="absolute inset-0 flex flex-col items-center justify-center z-10 px-4">
-              <div className="text-center mt-32 md:mt-96">
+              <div className="text-center mt-32">
                 <h1 className="text-4xl md:text-7xl font-black text-slate-100 py-3 px-8">
                   {id.toUpperCase()}
                 </h1>
@@ -34,7 +36,7 @@ export default function CategoryPage() {
             </div>
           </div>
         </div>
-      </section>
+      </div>
       <div className="py-6 sm:py-8 lg:py-12">
         <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
           <div className="mb-6 flex items-end justify-between gap-4">

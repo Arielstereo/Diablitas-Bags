@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Brand from "./Brand";
 const Hero = () => {
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId);
@@ -11,13 +12,7 @@ const Hero = () => {
 
   return (
     <section className="relative min-h-screen w-full">
-      <div className="bg-black text-yellow-200 flex justify-center items-center text-base py-3 mt-[65px] lg:mt-32 overflow-hidden">
-        <p className="marquee text-base">
-          Envios sin cargo en:&nbsp; Floresta &nbsp;- &nbsp; Monte Castro
-          &nbsp;- &nbsp; Liniers &nbsp;- &nbsp; Devoto &nbsp; | &nbsp; Promo día
-          del amigo 15% OFF en DESTACADOS del 10 al 20 de Julio! &nbsp;
-        </p>
-      </div>
+      <Brand />
       <div className="relative w-full h-[650px] md:h-[700px]">
         {/* Imagen de fondo */}
         <Image
@@ -31,7 +26,7 @@ const Hero = () => {
         <div className="absolute inset-0 bg-black/40"></div>
         {/* Contenido centrado */}
         <div className="absolute inset-0 flex flex-col items-center justify-start mt-32 z-10 px-4">
-          <h1 className="text-4xl xs:text-5xl md:text-7xl font-black text-slate-100 py-3 px-2 md:px-8 text-center drop-shadow-lg">
+          <h1 className="text-4xl xs:text-5xl md:text-7xl font-black text-slate-100 py-3 px-2 md:px-8 text-center animate-pulse drop-shadow-lg">
             NEW SEASON 25
           </h1>
           <h2 className="text-2xl md:text-4xl font-bold text-gray-100 pb-4 text-center drop-shadow">

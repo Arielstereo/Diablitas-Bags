@@ -4,6 +4,7 @@ import { useParams } from "next/navigation";
 import { products } from "../../../mockup/data.json";
 import Link from "next/link";
 import { useState } from "react";
+import Brand from "@/components/Brand";
 
 const page = () => {
   const { id } = useParams();
@@ -25,8 +26,9 @@ const page = () => {
   };
 
   return (
-    <div className="bg-white py-6 sm:py-8 lg:py-12">
-      <div className="absolute right-8 md:right-32 top-32 md:top-48">
+    <section className="relative min-h-screen w-full">
+      <Brand />
+      <div className="absolute right-8 md:right-32 top-16 md:top-24">
         <Link
           href="/"
           className="text-center text-lg text-black flex gap-0 hover:gap-4 items-center hover:text-gray-500 transition-all duration-300 lg:text-base"
@@ -39,7 +41,7 @@ const page = () => {
           <span>INICIO</span>
         </Link>
       </div>
-      <div className="mx-auto max-w-screen-xl px-4 md:px-8 mt-16 md:mt-0">
+      <div className="mx-auto max-w-screen-xl px-4 md:px-8 my-16">
         <div className="grid gap-8 md:grid-cols-2">
           <div className="grid gap-4 lg:grid-cols-5">
             <div className="relative overflow-hidden rounded-lg bg-gray-100 lg:col-span-4">
@@ -106,7 +108,7 @@ const page = () => {
                       100}
                   </span>
                 ) : (
-                  <span className="font-bold text-gray-800 lg:text-lg">
+                  <span className="font-bold text-gray-800 text-xl lg:text-2xl">
                     $ {product.price}
                   </span>
                 )}
@@ -117,9 +119,12 @@ const page = () => {
                 )}
               </div>
 
-              <span className="text-sm text-gray-500">
-                Costo de envío $3.500 (CABA)
-              </span>
+              <div className="w-3/4 pt-4">
+                <span className="text-sm text-gray-500">
+                  Envíos zona Floresta, Devoto , Liniers y alrededores sin
+                  cargo. Consulta por el costo al resto de CABA y GBA.
+                </span>
+              </div>
             </div>
 
             <div className="mb-6 flex items-center gap-2 text-gray-500">
@@ -166,7 +171,7 @@ const page = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
