@@ -17,7 +17,7 @@ const NewProducts = () => {
   }, [slides.length]);
 
   return (
-    <section className="mb-32">
+    <section className="mb-32 mt-8">
       <div className="container mx-auto px-4">
         <h2 className="text-2xl font-bold text-center mb-8">NUEVOS INGRESOS</h2>
         <div className="relative flex items-center justify-center w-full">

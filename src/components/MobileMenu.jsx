@@ -22,11 +22,10 @@ const MobileMenu = () => {
   return (
     <nav>
       {!isMenuOpen && (
-        <div className="block lg:hidden">
+        <div className="fixed top-0 left-0 w-full z-50 block lg:hidden bg-white shadow-lg py-2">
           <div className="flex justify-between">
             <div className="text-2xl text-center text-red-700 pt-5 pl-6 font-bold">
               <div className="flex gap-2">
-                {" "}
                 <Image
                   src="/logo_white.png"
                   alt="logo"
@@ -39,40 +38,35 @@ const MobileMenu = () => {
             </div>
             <button
               onClick={toggleMenu}
-              className="lg:hidden relative top-2 right-6 z-50 p-2 text-black duration-200"
+              className="lg:hidden relative top-2 right-4 z-50 p-2 text-black duration-200"
               aria-label="Abrir menú"
             >
               <i
-                className="icon-[line-md--close-to-menu-transition] w-10 h-10"
+                className="icon-[line-md--close-to-menu-transition] w-8 h-8"
                 role="img"
                 aria-hidden="true"
               ></i>
             </button>
-          </div>
-          <div className="bg-black text-slate-200 flex justify-center items-center text-base py-2 overflow-hidden">
-            <p className="marquee text-base">
-              Envios sin cargo en:&nbsp; Floresta &nbsp;- &nbsp; Monte Castro
-              &nbsp;- &nbsp; Liniers &nbsp;- &nbsp; Devoto &nbsp; | &nbsp; Promo
-              día del amigo 15% OFF en DESTACADOS del 10 al 20 de Julio! &nbsp;
-            </p>
           </div>
         </div>
       )}
 
       {/* Menú móvil */}
       <div
-        className={`lg:hidden fixed inset-0 bg-white transition-all duration-300 ease-in-out z-50 ${
-          isMenuOpen ? "opacity-100 visible" : "opacity-0 invisible"
-        }`}
+        className={`
+          lg:hidden fixed inset-0 bg-white z-50
+          transition-transform duration-300 ease-in-out
+          ${isMenuOpen ? "translate-x-0" : "-translate-x-full"}
+        `}
       >
         {/* Botón para cerrar menú */}
         <button
           onClick={toggleMenu}
-          className="absolute top-2 right-6 z-50 p-2 text-black hover:text-gray-600 duration-200"
+          className="absolute top-4 right-4 z-50 p-2 text-black hover:text-gray-600 duration-200"
           aria-label="Cerrar menú"
         >
           <i
-            className="icon-[rivet-icons--close] w-10 h-10"
+            className="icon-[rivet-icons--close] w-8 h-8"
             role="img"
             aria-hidden="true"
           ></i>
