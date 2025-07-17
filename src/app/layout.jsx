@@ -44,6 +44,10 @@ export default function RootLayout({ children }) {
     <html lang="es">
       <head>
         <link rel="icon" href="/favicon.png" sizes="any" />
+        <meta
+          name="google-site-verification"
+          content="qGCnmT790OHmqDOzts3TDjYJ0jSRQRscQHJHb_hSeIM"
+        />
         <meta name="theme-color" content="#111" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </head>
