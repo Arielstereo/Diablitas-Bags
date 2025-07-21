@@ -27,7 +27,7 @@ const Products = () => {
                 />
                 {product.sale && (
                   <span className="absolute z-10 left-0 top-0 rounded-br-lg bg-red-500 px-3 py-1.5 text-sm uppercase tracking-wider text-white">
-                    Promo dia del amigo -15%
+                    15% OFF
                   </span>
                 )}
               </Link>
