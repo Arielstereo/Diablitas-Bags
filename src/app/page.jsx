@@ -11,11 +11,11 @@ export default function Home() {
     <div className="min-h-screen">
       <Hero />
       {/* <PromoModal /> */}
-      <NewProducts />
-      <Incentives />
       <Category />
-      <Socials />
       <Products />
+      <Incentives />
+      <Socials />
+      <NewProducts />
     </div>
   );
 }
