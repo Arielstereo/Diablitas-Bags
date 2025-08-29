@@ -27,10 +27,10 @@ const Hero = () => {
         {/* Contenido centrado */}
         <div className="absolute inset-0 flex flex-col items-center justify-start mt-32 z-10 px-4">
           <h1 className="text-4xl xs:text-5xl md:text-7xl font-black text-slate-100 py-3 px-2 md:px-8 text-center animate-pulse drop-shadow-lg">
-            NEW SEASON 25
+            NEW SEASON
           </h1>
-          <h2 className="text-2xl md:text-4xl font-bold text-gray-100 pb-4 text-center drop-shadow">
-            Otoño | Invierno
+          <h2 className="text-2xl md:text-4xl font-bold text-gray-200 pb-4 text-center drop-shadow">
+            PRIMAVERA 2025
           </h2>
           <button
             onClick={() => scrollToSection("products")}

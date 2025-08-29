@@ -20,7 +20,7 @@ const funel = Funnel_Display({
 export const metadata = {
   title: "Diablita's Bags | Carteras, Minibags y Totebags",
   description:
-    "Descubrí la mejor selección de carteras, minibags y totebags en Diablita's Bags. ¡Nuevos modelos temporada Otoño Invierno 2025!",
+    "Descubrí la mejor selección de carteras, minibags y totebags en Diablita's Bags. ¡Nuevos modelos primavera 2025!",
   keywords: [
     "carteras",
     "minibags",

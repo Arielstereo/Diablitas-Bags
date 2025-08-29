@@ -47,8 +47,8 @@
       ],
       "description": "Minibag de eco cuero. Forrado en su interior con bolsillo. Confeccionado con cierre metálico.Triple bolsillos externos adelante.Detalles en tachas en níquel.",
       "category": "minibags",
-      "sale": true,
-      "featured": true,
+      "sale": false,
+      "featured": false,
 
 "new": false,      "color": [
         "negro",

@@ -6,10 +6,10 @@ const Products = () => {
   const featured = products.filter((p) => p.featured);
 
   return (
-    <section id="products" className="my-32">
+    <section id="products" className="mb-32">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl md:text-5xl font-bold text-center mb-12">
-          SALE
+        <h2 className="text-3xl md:text-5xl font-bold text-center my-12">
+          DESTACADOS
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-x-4 gap-y-12 mx-4 md:mx-12">
           {featured.map((product) => (
