@@ -29,7 +29,7 @@ const categories = [
 
 const Category = () => {
   return (
-    <section className="my-16">
+    <section className="mb-24 mt-4">
       <div className="px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-2 mb-8">
           {categories.map((category, index) => (

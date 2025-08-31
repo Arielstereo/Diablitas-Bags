@@ -30,6 +30,11 @@ const Products = () => {
                     OFERTA
                   </span>
                 )}
+                {product.superSale && (
+                  <span className="absolute z-10 right-0 top-0 rounded-bl-lg bg-black px-3 py-1.5 text-sm uppercase tracking-wider text-white animate-pulse">
+                    OFERTA DE LA SEMANA
+                  </span>
+                )}
               </Link>
               <div className="space-y-1">
                 <h3 className="font-medium text-lg">{product.name}</h3>

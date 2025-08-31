@@ -23,6 +23,7 @@ const page = () => {
     natural: "bg-orange-200",
     chocolate: "bg-amber-600",
     dorado: "bg-yellow-500",
+    jean: "bg-blue-500",
   };
 
   return (
@@ -58,7 +59,7 @@ const page = () => {
                 className="h-full w-full object-cover object-center"
               />
               {product.sale && (
-                <span className="absolute left-0 top-0 rounded-br-lg bg-red-500 px-3 py-1.5 text-sm uppercase tracking-wider text-white">
+                <span className="absolute left-0 top-0 rounded-br-lg bg-red-700 animate-pulse px-3 py-1.5 text-sm uppercase tracking-wider text-white">
                   15% OFF
                 </span>
               )}
@@ -102,7 +103,7 @@ const page = () => {
             <div className="mb-4">
               <div className="flex items-end gap-2">
                 {product.sale ? (
-                  <span className="font-bold text-gray-800 lg:text-lg">
+                  <span className="font-bold text-gray-800 text-xl lg:text-2xl">
                     $
                     {Math.floor((product.price - product.price * 0.15) / 100) *
                       100}
@@ -113,8 +114,13 @@ const page = () => {
                   </span>
                 )}
                 {product.sale && (
-                  <span className="mb-0.5 text-red-500 line-through">
+                  <span className="mb-0.5 text-red-500 line-through text-lg">
                     ${product.price}
+                  </span>
+                )}
+                {product.superSale && (
+                  <span className="mb-0.5 text-red-500 text-lg font-semibold">
+                    ¡Oferta de la semana!
                   </span>
                 )}
               </div>
@@ -147,16 +153,20 @@ const page = () => {
               <span className="text-sm">Entregas en 24hs.</span>
             </div>
 
-            <div className="flex justify-center">
+            <div className="flex flex-col gap-4">
               <a
                 href={`https://api.whatsapp.com/send?phone=+5491126922128&text=Hola%20quiero%20reservar%20la%20${encodeURIComponent(
                   product.name
                 )}`}
                 target="_blank"
-                className="rounded-lg w-full bg-black hover:bg-slate-800 px-8 py-3 text-center text-xl font-semibold text-white transition duration-300"
+                className="rounded-lg w-full bg-black hover:bg-green-800 px-8 py-3 text-center text-xl font-semibold text-white transition duration-300"
               >
                 RESERVAR
               </a>
+              <span className="text-sm text-gray-500">
+                Solicita tu producto por la web. Consulta por stock y colores
+                disponibles. Abona al momento de la entrega!
+              </span>
             </div>
 
             <div className="py-6 w-2/3">

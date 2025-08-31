@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Minibag-Chiara",
-      "price": 31500,
+      "price": 30600,
       "image": [
         "https://static.wixstatic.com/media/676d30_b00877c8d3614867bd18c95882ad41bd~mv2.jpg/v1/fill/w_500,h_667,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_b00877c8d3614867bd18c95882ad41bd~mv2.jpg",
         "https://static.wixstatic.com/media/676d30_772d258c9f834035bb278b86ce5165a7~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_772d258c9f834035bb278b86ce5165a7~mv2.jpg"
@@ -20,26 +20,25 @@
     },
     {
       "id": 2,
-      "name": "Minibag-Londres",
-      "price": 43700,
+      "name": "Minibag-Jean",
+      "price": 32000,
       "image": [
-        "https://static.wixstatic.com/media/df8397_df1eb7757ebe4a2a9376eefccef8f7a6~mv2.jpg/v1/fill/w_550,h_625,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/df8397_df1eb7757ebe4a2a9376eefccef8f7a6~mv2.jpg",
-        "https://static.wixstatic.com/media/df8397_cc8a0638289941cfa25907528c979244~mv2.jpg/v1/fill/w_550,h_625,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/df8397_cc8a0638289941cfa25907528c979244~mv2.jpg"
+        "https://static.wixstatic.com/media/676d30_8282197d69e9487c9c19459747ef22ab~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_8282197d69e9487c9c19459747ef22ab~mv2.jpg",
+        "https://static.wixstatic.com/media/676d30_eb7538dfee8546949e09c1c52437be0c~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_eb7538dfee8546949e09c1c52437be0c~mv2.jpg"
       ],
-      "description": "Minibag de eco cuero. Interior forrado en tela.Bolsillo interno con cierre. Viene con llave y candado.",
+      "description": "Minibag de jean. Bolsillo interno. Cierre metálico. Tira regulable con ojalillos.",
       "category": "minibags",
       "sale": false,
       "featured": false,
-      "new": false,
+      "new": true,
       "color": [
-        "negro",
-        "rojo"
+        "jean"
       ]
     },
     {
       "id": 3,
       "name": "Destiny",
-      "price": 35900,
+      "price": 34900,
       "image": [
         "https://static.wixstatic.com/media/676d30_ec23121e3239421a9643ab4125f0f229~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_ec23121e3239421a9643ab4125f0f229~mv2.jpg",
         "https://static.wixstatic.com/media/676d30_ca75cf3662604eb5a086a4380f6505fc~mv2.jpg/v1/fill/w_470,h_626,al_c,q_85,usm_0.66_1.00_0.01/676d30_ca75cf3662604eb5a086a4380f6505fc~mv2.jpg"
@@ -76,7 +75,7 @@
     {
       "id": 5,
       "name": "Rubi-Bag",
-      "price": 31000,
+      "price": 28900,
       "image": [
         "https://static.wixstatic.com/media/676d30_07870ab9df5747d7aabe317034d8840d~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_07870ab9df5747d7aabe317034d8840d~mv2.jpg",
         "https://static.wixstatic.com/media/676d30_e9dfa3bfa59a426f8020d598e87cedfd~mv2.jpg/v1/fill/w_470,h_626,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_e9dfa3bfa59a426f8020d598e87cedfd~mv2.jpg"
@@ -95,7 +94,7 @@
     {
       "id": 6,
       "name": "Minibag-Cher",
-      "price": 38500,
+      "price": 37400,
       "image": [
         "https://static.wixstatic.com/media/df8397_538a7bde032b4a199275cd6b200d712c~mv2.jpg/v1/fill/w_626,h_626,al_c,q_85,usm_0.66_1.00_0.01/df8397_538a7bde032b4a199275cd6b200d712c~mv2.jpg",
         "https://static.wixstatic.com/media/df8397_4c7b4560804d4449adebdefad19395d5~mv2.jpg/v1/fill/w_626,h_626,al_c,q_85,usm_0.66_1.00_0.01/df8397_4c7b4560804d4449adebdefad19395d5~mv2.jpg"
@@ -117,7 +116,7 @@
         "https://static.wixstatic.com/media/df8397_7b4bebd994b944728d3e7e38b3f4defc~mv2.jpg/v1/fill/w_626,h_626,al_c,q_85,usm_0.66_1.00_0.01/df8397_7b4bebd994b944728d3e7e38b3f4defc~mv2.jpg",
         "https://static.wixstatic.com/media/df8397_33b4e418a9d64e94bd369cc46767ca80~mv2.jpg/v1/fill/w_626,h_626,al_c,q_85,usm_0.66_1.00_0.01/df8397_33b4e418a9d64e94bd369cc46767ca80~mv2.jpg"
       ],
-      "description": "Bolso confeccionodo en ecocuero. Interior forrado en tela. Cierre metalico.Bolsillo interno.",
+      "description": "Bolso confeccionado en ecocuero. Interior forrado en tela. Cierre metalico.Bolsillo interno.",
       "category": "bags",
       "sale": true,
       "featured": true,
@@ -128,25 +127,28 @@
     },
     {
       "id": 8,
-      "name": "Minibag-Kiki",
-      "price": 29000,
+      "name": "Minibag-Charol",
+      "price": 33200,
       "image": [
-        "https://static.wixstatic.com/media/676d30_215cceeb631643c488adbec5858267e2~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_215cceeb631643c488adbec5858267e2~mv2.jpg",
-        "https://static.wixstatic.com/media/676d30_a7cafc0cf84d4bb185690200ac811423~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_a7cafc0cf84d4bb185690200ac811423~mv2.jpg"
+        "https://static.wixstatic.com/media/676d30_4b4ffc7d06c9469dabb4c5557fa57898~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_4b4ffc7d06c9469dabb4c5557fa57898~mv2.jpg",
+        "https://static.wixstatic.com/media/676d30_aa6e076175254a8eafacc83273723a18~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_aa6e076175254a8eafacc83273723a18~mv2.jpg"
       ],
-      "description": "Minibag acharolada. Forrada en su interior. Con cierre. Tira corta fija. Detalle de tira con hebilla grande e imán.",
+      "description": "Minibag acharolada. Forrada en su interior. Doble bolsillo externo en la parte frontal. Tira corta fija. Herrajes, cierres y detalles en Peltre.",
       "category": "minibags",
       "sale": false,
       "featured": false,
-      "new": false,
+      "new": true,
       "color": [
-        "blanco"
+        "blanco",
+        "negro",
+        "cherry",
+        "chocolate"
       ]
     },
     {
       "id": 9,
       "name": "Minibag-Moscu",
-      "price": 33000,
+      "price": 31500,
       "image": [
         "https://static.wixstatic.com/media/676d30_d35bac432da44334859a84b7e7b6dd19~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_d35bac432da44334859a84b7e7b6dd19~mv2.jpg",
         "https://static.wixstatic.com/media/676d30_af39e422b8b94822abe73d38fe155f1f~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_af39e422b8b94822abe73d38fe155f1f~mv2.jpg"
@@ -165,7 +167,7 @@
     {
       "id": 10,
       "name": "Bag-Gissel",
-      "price": 29000,
+      "price": 25500,
       "image": [
         "https://static.wixstatic.com/media/676d30_d1f91b9aead64e83ad5236b7232eaba5~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_d1f91b9aead64e83ad5236b7232eaba5~mv2.jpg",
         "https://static.wixstatic.com/media/676d30_043f22e6f2f342e2a98f729bb7e2c687~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_043f22e6f2f342e2a98f729bb7e2c687~mv2.jpg"
@@ -240,14 +242,15 @@
     {
       "id": 14,
       "name": "Bag-Sharpey",
-      "price": 43700,
+      "price": 35000,
       "image": [
         "https://static.wixstatic.com/media/676d30_6eea0e7027eb454d8cdb2a6e505ee500~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_6eea0e7027eb454d8cdb2a6e505ee500~mv2.jpg",
         "https://static.wixstatic.com/media/676d30_fea43bac79bf42d3ad8aab89f4cf469c~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_fea43bac79bf42d3ad8aab89f4cf469c~mv2.jpg"
       ],
       "description": "Cartera premium. Forrada y con bolsillo en su interior. Confeccionada con cierre. Tira regulable y desmontable.Detalles de ojalillos y hebilla grande en la parte frontal.",
       "category": "bags",
-      "sale": true,
+      "sale": false,
+      "superSale": true,
       "featured": true,
       "new": false,
       "color": [
@@ -259,7 +262,7 @@
     {
       "id": 15,
       "name": "Totebag-Samara",
-      "price": 39400,
+      "price": 40800,
       "image": [
         "https://static.wixstatic.com/media/676d30_ce6d8c2ef8d74f168a26a6597bc559e9~mv2.jpg/v1/fill/w_470,h_626,al_c,q_85,usm_0.66_1.00_0.01/676d30_ce6d8c2ef8d74f168a26a6597bc559e9~mv2.jpg",
         "https://static.wixstatic.com/media/676d30_5f7a7ed6020b407b91af652245153d63~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_5f7a7ed6020b407b91af652245153d63~mv2.jpg"
@@ -277,19 +280,21 @@
     {
       "id": 16,
       "name": "Totebag-Isadora",
-      "price": 49000,
+      "price": 44200,
       "image": [
-        "https://static.wixstatic.com/media/676d30_b7cec52d071842b7b66f703f13451de8~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_b7cec52d071842b7b66f703f13451de8~mv2.jpg",
-        "https://static.wixstatic.com/media/676d30_146ba255492d496696f45b909c863482~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_146ba255492d496696f45b909c863482~mv2.jpg"
+        "https://static.wixstatic.com/media/676d30_fdc4c4b82cc44d9998385c70900cee9f~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_fdc4c4b82cc44d9998385c70900cee9f~mv2.jpg",
+        "https://static.wixstatic.com/media/676d30_c7dc84ee556145fe99cd3a2ca027e658~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_c7dc84ee556145fe99cd3a2ca027e658~mv2.jpg"
       ],
-      "description": "Bolso de gamuzon. Forrado con tela en su interior y doble bolsillo interno. Cierre metálico. Doble manija para uso de bolso. Con correa regulable y desmontable para uso de morral",
+      "description": "Bolso de ecocuero. Forrado con tela en su interior y doble bolsillo interno. Cierre metálico. Doble manija para uso de bolso. Con correa regulable y desmontable para uso de morral",
       "category": "totebags",
       "sale": false,
       "featured": false,
       "new": false,
       "color": [
         "negro",
-        "chocolate"
+        "chocolate",
+        "cherry",
+        "blanco"
       ]
     },
     {
@@ -331,27 +336,27 @@
     },
     {
       "id": 19,
-      "name": "Totebag-Greyce",
-      "price": 52500,
+      "name": "Totebag-Key",
+      "price": 39900,
       "image": [
-        "https://static.wixstatic.com/media/df8397_48bdc5f73e5948a5b4fb54862936fac3~mv2.jpg/v1/fill/w_550,h_625,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/df8397_48bdc5f73e5948a5b4fb54862936fac3~mv2.jpg",
-        "https://static.wixstatic.com/media/df8397_d778e5fc2754407289a37cea79d37bd9~mv2.jpg/v1/fill/w_550,h_625,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/df8397_d778e5fc2754407289a37cea79d37bd9~mv2.jpg"
+        "https://static.wixstatic.com/media/676d30_5eab1502b2e7455ca978b7fdf9e5ae54~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_5eab1502b2e7455ca978b7fdf9e5ae54~mv2.jpg",
+        "https://static.wixstatic.com/media/676d30_6bf675de17544a89b3dc95e8fb148846~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_6bf675de17544a89b3dc95e8fb148846~mv2.jpg"
       ],
-      "description": "Totebag confeccionoda en ecocuero. Interior forrado en tela. Cierre metalico. Bolsillo delantero.",
+      "description": "Totebag grande de ecocuero. Forrado con doble bolsillo interno. Con cierre y tira regulable para uso de morral. Doble tira mochilera para uso de bolso. Ideal para la facu/trabajo.",
       "category": "totebags",
       "sale": false,
       "featured": false,
-      "new": false,
+      "new": true,
       "color": [
         "negro",
-        "blanco",
+        "chocolate",
         "cherry"
       ]
     },
     {
       "id": 20,
       "name": "Totebag-Cali",
-      "price": 38500,
+      "price": 40200,
       "image": [
         "https://static.wixstatic.com/media/676d30_61e65e276a404afb8174d6efc884d059~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_61e65e276a404afb8174d6efc884d059~mv2.jpg",
         "https://static.wixstatic.com/media/676d30_76e5840b4c7a4c0aa3bcf2f4e6877aca~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_76e5840b4c7a4c0aa3bcf2f4e6877aca~mv2.jpg"
@@ -407,7 +412,7 @@
     {
       "id": 23,
       "name": "Bag-Chelsea",
-      "price": 39800,
+      "price": 37500,
       "image": [
         "https://static.wixstatic.com/media/676d30_8891e96bebc84f12847fc19aaf9a89a8~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_8891e96bebc84f12847fc19aaf9a89a8~mv2.jpg",
         "https://static.wixstatic.com/media/676d30_85bca9d82d204207a950cdecbcb672d9~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_85bca9d82d204207a950cdecbcb672d9~mv2.jpg"
@@ -424,45 +429,42 @@
     },
     {
       "id": 24,
-      "name": "Bag-Celine",
-      "price": 43700,
+      "name": "Bag-Petra",
+      "price": 20500,
       "image": [
-        "https://static.wixstatic.com/media/df8397_69f6c2ba42764fbcb1514eacab7b4ddf~mv2.jpg/v1/fill/w_550,h_625,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/df8397_69f6c2ba42764fbcb1514eacab7b4ddf~mv2.jpg",
-        "https://static.wixstatic.com/media/df8397_acb5ee0615574129a3c620df93a60a7b~mv2.jpg/v1/fill/w_550,h_625,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/df8397_acb5ee0615574129a3c620df93a60a7b~mv2.jpg"
+        "https://static.wixstatic.com/media/676d30_7a1e623f537544409cffd8bfc7ae5134~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_7a1e623f537544409cffd8bfc7ae5134~mv2.jpg"
       ],
-      "description": "Bolso confeccionodo en gamuza. Interior forrado en tela. Cierre metalico. Bolsillo interno.",
+      "description": "Tela opaca con textura. Interior forrado. Detalle de cadena níquel con perlas. Bolsillo con cierre. Incluye cadena larga para usarla como cartera (1m de largo)",
       "category": "bags",
       "sale": false,
       "featured": false,
       "new": false,
       "color": [
-        "negro",
-        "blanco",
-        "cherry"
+        "negro"
       ]
     },
     {
       "id": 25,
-      "name": "Bag-Nina",
-      "price": 47600,
+      "name": "Bag-Helen",
+      "price": 32000,
       "image": [
-        "https://static.wixstatic.com/media/02cb6e_4292edf1fa8f41e89a71631bcc9bee34~mv2.jpg/v1/fill/w_550,h_625,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/02cb6e_4292edf1fa8f41e89a71631bcc9bee34~mv2.jpg",
-        "https://static.wixstatic.com/media/02cb6e_2da89688fddd4cabbc5b929b7826ffe2~mv2.jpg/v1/fill/w_625,h_625,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/02cb6e_2da89688fddd4cabbc5b929b7826ffe2~mv2.jpg"
+        "https://static.wixstatic.com/media/676d30_5747aed8a13943af9337a39221410e77~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_5747aed8a13943af9337a39221410e77~mv2.jpg",
+        "https://static.wixstatic.com/media/676d30_6beabdd5cd6a45cd866a36f5a95278fc~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_6beabdd5cd6a45cd866a36f5a95278fc~mv2.jpg"
       ],
-      "description": "Cartera Nina de ecocuero. Interior forrado. Bolsillo Interno . Incluye tira desmontable con mosqueton. Cadena desmontable con mosqueton.",
+      "description": "Cartera con tapa y doble iman. Detalle de hebilla y cadenita en la parte frontal. Tira regulable y desmontable.",
       "category": "bags",
       "sale": false,
       "featured": false,
       "new": false,
       "color": [
-        "negro",
-        "natural"
+        "cherry",
+        "chocolate"
       ]
     },
     {
       "id": 26,
       "name": "Mochila-Dakota",
-      "price": 48100,
+      "price": 46700,
       "image": [
         "https://static.wixstatic.com/media/676d30_d06c72d6b1b245bb9c5350dbf2c49d94~mv2.jpg/v1/fill/w_470,h_626,al_c,q_85,usm_0.66_1.00_0.01/676d30_d06c72d6b1b245bb9c5350dbf2c49d94~mv2.jpg",
         "https://static.wixstatic.com/media/676d30_80ff5dcff0f14f6ba772fd7aefbd4d07~mv2.jpg/v1/fill/w_470,h_626,al_c,q_85,usm_0.66_1.00_0.01/676d30_80ff5dcff0f14f6ba772fd7aefbd4d07~mv2.jpg"
@@ -496,30 +498,31 @@
     },
     {
       "id": 28,
-      "name": "Mochila-Praga",
-      "price": 26800,
+      "name": "Mochila-Teddy",
+      "price": 40500,
       "image": [
-        "https://static.wixstatic.com/media/df8397_d9e3599919d747ba930a11b00e8390db~mv2.jpg/v1/fill/w_550,h_625,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/df8397_d9e3599919d747ba930a11b00e8390db~mv2.jpg",
-        "https://static.wixstatic.com/media/df8397_f173241f3fee4619a252a261412b693f~mv2.jpg/v1/fill/w_550,h_625,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/df8397_f173241f3fee4619a252a261412b693f~mv2.jpg"
+        "https://static.wixstatic.com/media/676d30_396428fb39c5408f9ef23e96491ed85d~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_396428fb39c5408f9ef23e96491ed85d~mv2.jpg",
+        "https://static.wixstatic.com/media/676d30_6eff8f6733dd4ac7a3e9106ee3af279e~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_6eff8f6733dd4ac7a3e9106ee3af279e~mv2.jpg"
       ],
-      "description": "Mochila de eco cuero.Compartimiento principal con cierre. Bolsillo Interno con cierre. Correas para los hombros ajustables.Ribetes contrastantes",
+      "description": " Mochila de corderito. Forrado en su interior, con bolsillo. Material: corderito y eco cuero (parte trasera). Bolsillo externo adelante.Tiras regulables y reforzadas.  ",
       "category": "mochilas",
       "sale": false,
       "featured": false,
       "new": false,
       "color": [
-        "natural"
+        "negro",
+        "blanco"
       ]
     },
     {
       "id": 29,
-      "name": "Mochila-bolso",
-      "price": 44600,
+      "name": "Mochila-Indigo",
+      "price": 44000,
       "image": [
-        "https://static.wixstatic.com/media/02cb6e_c0c7b4464a8945f589b2c8280c230a04~mv2.jpg/v1/fill/w_550,h_625,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/02cb6e_c0c7b4464a8945f589b2c8280c230a04~mv2.jpg",
-        "https://static.wixstatic.com/media/02cb6e_afc09a20178e4ce3bfe9cd4c9c948d9d~mv2.jpg/v1/fill/w_550,h_625,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/02cb6e_afc09a20178e4ce3bfe9cd4c9c948d9d~mv2.jpg"
+        "https://static.wixstatic.com/media/676d30_c3f24cf412814b0a98cd4e4416aadcbc~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_c3f24cf412814b0a98cd4e4416aadcbc~mv2.jpg",
+        "https://static.wixstatic.com/media/676d30_43ae9811235344efa339876ab2dec103~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_43ae9811235344efa339876ab2dec103~mv2.jpg"
       ],
-      "description": "Bolso Mochila confeccionodo en Andorra. Interior forrado. Interior con bolsillo con cierre. Bolsillo con cierre atras. Herrajes Niquelados.",
+      "description": " Mochila de eco cuero nacional.Toda forrada en su interior, con  bolsillo. Doble bolsillo externo con detalles de remaches. Tiras regulables y reforzadas con triple costura.",
       "category": "mochilas",
       "sale": false,
       "featured": false,
@@ -527,67 +530,72 @@
       "color": [
         "negro",
         "chocolate",
-        "rojo"
+        "cherry"
       ]
     },
     {
       "id": 30,
-      "name": "Cartera-Morral",
-      "price": 43700,
+      "name": "Bag-Kate",
+      "price": 30500,
       "image": [
-        "https://static.wixstatic.com/media/df8397_bbabac6c64de415a84e9c4d8e5c5fc9d~mv2.jpg/v1/fill/w_550,h_625,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/df8397_bbabac6c64de415a84e9c4d8e5c5fc9d~mv2.jpg",
-        "https://static.wixstatic.com/media/df8397_098a8b3f5fb040d3aa4092f8c7b7aa59~mv2.jpg/v1/fill/w_550,h_625,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/df8397_098a8b3f5fb040d3aa4092f8c7b7aa59~mv2.jpg"
+        "https://static.wixstatic.com/media/676d30_cfc9e82771a7434e81c0b0a4f5a77a08~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_cfc9e82771a7434e81c0b0a4f5a77a08~mv2.jpg",
+        "https://static.wixstatic.com/media/676d30_244a214678c848c4aa24b3747ddc4b74~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_244a214678c848c4aa24b3747ddc4b74~mv2.jpg"
       ],
-      "description": "Cartera confeccionodo en Andorra. Interior forrado. Incluye correa desmontable y regulable. Interior con bolsillo con cierre. Herrajes Niquelados.",
+      "description": "Cartera forrada y con bolsillo en su interior con cierre. Detalles de hebillas y cierres frontales. Bolsillos a los alterales. Tira regulable para uso de cartera y mochila. Tiene cuatro patitas en la base.",
       "category": "bags",
       "sale": false,
       "featured": false,
       "new": true,
       "color": [
-        "negro"
+        "blanco"
       ]
     },
     {
       "id": 31,
-      "name": "Minibag-Leah",
-      "price": 43700,
+      "name": "Minibag-Britney",
+      "price": 34900,
       "image": [
-        "https://static.wixstatic.com/media/df8397_edcab8b531f54ead881c2b823b1e1f58~mv2.jpg/v1/fill/w_550,h_625,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/df8397_edcab8b531f54ead881c2b823b1e1f58~mv2.jpg",
-        "https://static.wixstatic.com/media/df8397_f020fcbfa4eb4b908de2d98923e05c71~mv2.jpg/v1/fill/w_550,h_625,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/df8397_f020fcbfa4eb4b908de2d98923e05c71~mv2.jpg"
+        "https://static.wixstatic.com/media/676d30_3142bdbc0403497eb00f715c3bb858da~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_3142bdbc0403497eb00f715c3bb858da~mv2.jpg",
+        "https://static.wixstatic.com/media/676d30_a0a81989e43b4ea4a19d814332003bb1~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_a0a81989e43b4ea4a19d814332003bb1~mv2.jpg"
       ],
-      "description": "Minibag confeccionodo en ecocuero. Interior forrado en tela. Bolsillo interno.",
+      "description": "Minibag. Interior forrado. Con tapa e iman. Con detalle de tachas y hebilla en la parte frontal. Tira fija para uso de minibag. ",
       "category": "minibags",
       "sale": false,
       "featured": false,
       "new": true,
       "color": [
-        "negro"
+        "negro",
+        "blanco",
+        "cherry",
+        "chocolate"
       ]
     },
     {
       "id": 32,
-      "name": "Totebag-Ruth",
-      "price": 47200,
+      "name": "Totebag-Lisboa",
+      "price": 34000,
       "image": [
-        "https://static.wixstatic.com/media/df8397_64b484741be44d6bb851589342f74b3f~mv2.jpg/v1/fill/w_550,h_625,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/df8397_64b484741be44d6bb851589342f74b3f~mv2.jpg",
-        "https://static.wixstatic.com/media/df8397_35707f96349e43d3a6b94733f1c75744~mv2.jpg/v1/fill/w_550,h_625,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/df8397_35707f96349e43d3a6b94733f1c75744~mv2.jpg"
+        "https://static.wixstatic.com/media/676d30_ef658f61b5fd405c84da43d79f9807a7~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_ef658f61b5fd405c84da43d79f9807a7~mv2.jpg",
+        "https://static.wixstatic.com/media/676d30_4070765b09d34493b0f5d34d5821635d~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_4070765b09d34493b0f5d34d5821635d~mv2.jpg"
       ],
-      "description": "Cartera Morral confeccionodo en Andorra. Interior forrado. Bolsillo interno con cierre. Correa Desmontable y regulable.",
+      "description": "Totebag de eco cuero. Interior forrado. Bolsillo interno. doble bolsillo externo. ideal para la facultad/ trabajo.",
       "category": "totebags",
       "sale": false,
       "featured": false,
       "new": true,
       "color": [
-        "negro"
+        "negro",
+        "chocolate",
+        "cherry"
       ]
     },
     {
       "id": 33,
-      "name": "Totebag-Brix",
-      "price": 50700,
+      "name": "Totebag-Atenas",
+      "price": 39100,
       "image": [
-        "https://static.wixstatic.com/media/df8397_e254901287ff47f6987eee727f85ea5f~mv2.jpg/v1/fill/w_550,h_625,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/df8397_e254901287ff47f6987eee727f85ea5f~mv2.jpg",
-        "https://static.wixstatic.com/media/df8397_a2663891135d442fb55ff232e43751f4~mv2.jpg/v1/fill/w_550,h_625,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/df8397_a2663891135d442fb55ff232e43751f4~mv2.jpg"
+        "https://static.wixstatic.com/media/676d30_142e37ee4bcc4a5ab167b9fb3e5ce029~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_142e37ee4bcc4a5ab167b9fb3e5ce029~mv2.jpg",
+        "https://static.wixstatic.com/media/676d30_2af2bdea83a54934bfdffd6f72d27366~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_2af2bdea83a54934bfdffd6f72d27366~mv2.jpg"
       ],
       "description": "Cartera Morral confeccionodo en Andorra. Interior forrado. Bolsillo interno con cierre. Correa Desmontable y regulable.",
       "category": "totebags",
@@ -595,24 +603,60 @@
       "featured": false,
       "new": true,
       "color": [
-        "negro"
+        "negro",
+        "chocolate"
       ]
     },
     {
       "id": 34,
-      "name": "Minibag-Gahia",
-      "price": 52500,
+      "name": "Minibag-Adele",
+      "price": 31600,
       "image": [
-        "https://static.wixstatic.com/media/02cb6e_0c823f50c77843adb022dae9aae21dc6~mv2.jpg/v1/fill/w_550,h_625,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/02cb6e_0c823f50c77843adb022dae9aae21dc6~mv2.jpg",
-        "https://static.wixstatic.com/media/02cb6e_40841af7249d4e5b96b3419ca4eaee2f~mv2.jpg/v1/fill/w_550,h_625,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/02cb6e_40841af7249d4e5b96b3419ca4eaee2f~mv2.jpg"
+        "https://static.wixstatic.com/media/676d30_56060f8691094a60b2a8974df32507ba~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_56060f8691094a60b2a8974df32507ba~mv2.jpg"
       ],
-      "description": "Minibag confeccionodo en ecocuero . Interior forrado . Cierre Metalizado. Herrajes Dorado.Correa desmontable.",
+      "description": "Minibag confeccionodo en ecocuero . Forrado con tela y bolsillo .Detalle de ojalillos en el centro. Herrajes Dorado. Tira desmontable.",
       "category": "minibags",
       "sale": false,
       "featured": false,
       "new": true,
       "color": [
-        "negro"
+        "cherry"
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Charm-Conejo",
+      "price": 8500,
+      "image": [
+        "https://static.wixstatic.com/media/02cb6e_f30372d01d29404bb37a691a3a4f2ccd~mv2.jpg/v1/fill/w_440,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/02cb6e_f30372d01d29404bb37a691a3a4f2ccd~mv2.jpg",
+        "https://static.wixstatic.com/media/02cb6e_43d2abb1a1954da3a88334e7772f2142~mv2.jpg/v1/fill/w_440,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/02cb6e_43d2abb1a1954da3a88334e7772f2142~mv2.jpg"
+      ],
+      "description": "Hermoso Charm de conejo, suave al tacto. Mosqueton dorado, sólido de facil instalacion. Hecho de piel artificial de alta calidad. ",
+      "category": "accesorios",
+      "sale": false,
+      "featured": false,
+      "new": false,
+      "color": [
+        "blanco"
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Charm-Corazon",
+      "price": 5000,
+      "image": [
+        "https://static.wixstatic.com/media/df8397_986b3955a4114dceb932a5955c157108~mv2.jpg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/df8397_986b3955a4114dceb932a5955c157108~mv2.jpg",
+        "https://static.wixstatic.com/media/df8397_84ef009fee7e48d3b978ab2df30ccbfe~mv2.jpg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/df8397_84ef009fee7e48d3b978ab2df30ccbfe~mv2.jpg"
+      ],
+      "description": "Llavero Pompon.Mosquetón reforzado.",
+      "category": "accesorios",
+      "sale": false,
+      "featured": false,
+      "new": false,
+      "color": [
+        "blanco",
+        "rojo",
+        "gris"
       ]
     }
   ]
