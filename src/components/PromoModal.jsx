@@ -36,7 +36,7 @@ const PromoModal = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 rounded-lg">
           <img
             alt="product/image"
-            src="https://static.wixstatic.com/media/676d30_6eea0e7027eb454d8cdb2a6e505ee500~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_6eea0e7027eb454d8cdb2a6e505ee500~mv2.jpg"
+            src="/tini.jpeg"
             className="w-full h-full rounded-t-lg md:rounded-t-none md:rounded-l-lg"
           />
 
