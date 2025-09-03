@@ -61,11 +61,11 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-      <div className="bg-slate-100 text-black py-2 text-center w-full">
+      <div className="bg-red-500 text-white py-2 text-center font-semibold w-full">
         Creado por{" "}
         <a
           href="https://empren.dev"
-          className="hover:text-sky-600"
+          className="hover:text-slate-900"
           target="_blank"
         >
           EmprenDev

@@ -203,15 +203,15 @@
     {
       "id": 12,
       "name": "Minibag-Roma",
-      "price": 31500,
+      "price": 34800,
       "image": [
         "https://static.wixstatic.com/media/676d30_358fcfeb7aed44bdafd0f2ef03fc5631~mv2.jpg/v1/fill/w_500,h_667,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_358fcfeb7aed44bdafd0f2ef03fc5631~mv2.jpg",
         "https://static.wixstatic.com/media/676d30_fbde8b54223c474d8276c26c884536cc~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_fbde8b54223c474d8276c26c884536cc~mv2.jpg"
       ],
       "description": "Minibag de gamuzón premium. Forrado con tela. Confeccionado con cierre metálico. Doble bolsillo externo a los costados.Tira con ojales para regular el largo.",
       "category": "minibags",
-      "sale": false,
-      "featured": false,
+      "sale": true,
+      "featured": true,
       "new": false,
       "color": [
         "negro",

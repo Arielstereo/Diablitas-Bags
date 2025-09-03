@@ -45,7 +45,7 @@ const Category = () => {
                 height={80}
                 className="hidden md:block w-96 h-full overflow-hidden object-cover shadow-lg hover:scale-105 transition-transform"
               />
-              <p className="text-xl font-semibold mt-4 relative bg-black transition-all duration-300 w-3/4 md:w-1/2 hover:w-2/3 rounded-4xl p-2 md:py-4 text-white md:-top-32 left-0 md:left-32">
+              <p className="text-xl font-semibold mt-4 relative bg-black transition-all duration-300 w-3/4 md:w-1/2 md:hover:w-2/3 rounded-4xl p-2 md:py-4 text-white md:-top-32 left-0 md:left-32">
                 {category.name}
               </p>
             </Link>
