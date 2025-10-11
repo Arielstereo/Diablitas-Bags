@@ -23,7 +23,7 @@ const Socials = () => {
           </div>
           <div className="mx-4">
             <Image
-              src="/diablitas.jpg"
+              src="/tini.jpeg"
               alt="diablitas image"
               width={600}
               height={400}

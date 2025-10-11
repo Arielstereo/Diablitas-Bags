@@ -36,31 +36,25 @@ const PromoModal = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 rounded-lg">
           <img
             alt="product/image"
-            src="/tini.jpeg"
+            src="/wanda.png"
             className="w-full h-full rounded-t-lg md:rounded-t-none md:rounded-l-lg"
           />
 
           <div className="bg-red-600 p-2 lg:p-12 flex flex-col items-center justify-center rounded-b-lg md:rounded-b-none md:rounded-r-lg">
             <span className="text-2xl lg:text-5xl font-black text-white">
-              ¡Oferta de la semana!
+              ¡Oferta día de la Madre!
             </span>
             <p className="text-lg md:text-xl font-normal text-white mt-2">
-              Bag Sharpey
+              Minibag Victoria
             </p>
-            <span className="text-3xl md:text-4xl font-bold text-yellow-400 mt-2 animate-pulse">
-              $35.000
+            <span className="text-3xl md:text-4xl font-bold text-black bg-white p-4 rounded-xl mt-2">
+              $36.000
             </span>
 
             <div className="mt-4">
-              <Link
-                href="/product/Bag-Sharpey"
-                className="py-1.5 lg:py-2 px-3 lg:px-4 bg-black hover:bg-slate-900 text-white rounded-sm text-base lg:text-2xl"
-              >
-                Ver oferta
-              </Link>
-              <div className="flex items-center justify-center mt-4">
-                <span className="text-yellow-300 text-center text-sm lg:text-base animate-pulse">
-                  Ultima unidad
+              <div className="flex items-center justify-center">
+                <span className="text-white font-bold text-center text-sm lg:text-lg animate-pulse">
+                  ULTIMA UNIDAD!!!
                 </span>
               </div>
             </div>

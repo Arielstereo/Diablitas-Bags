@@ -57,16 +57,17 @@
     {
       "id": 4,
       "name": "MiniBag-Victoria",
-      "price": 44600,
+      "price": 36000,
       "image": [
         "https://static.wixstatic.com/media/df8397_e5bedd7b554d47f3b178883848b396ec~mv2.jpg/v1/fill/w_602,h_626,al_c,q_85,usm_0.66_1.00_0.01/df8397_e5bedd7b554d47f3b178883848b396ec~mv2.jpg",
         "https://static.wixstatic.com/media/02cb6e_fb2833cded6c478ea35d9b6440632ac5~mv2.jpg/v1/fill/w_550,h_625,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/02cb6e_fb2833cded6c478ea35d9b6440632ac5~mv2.jpg"
       ],
       "description": "Minibag confeccionodo en ecocuero. Interior forrado. Bolsillo interno con cierre. Cierre Metalizado. Herrajes niquelados. Correa desmontable.",
       "category": "minibags",
-      "sale": true,
+      "sale": false,
       "featured": true,
       "new": false,
+      "superSale": true,
       "color": [
         "negro",
         "plateado"
@@ -103,23 +104,6 @@
       "category": "minibags",
       "sale": false,
       "featured": false,
-      "new": false,
-      "color": [
-        "negro"
-      ]
-    },
-    {
-      "id": 7,
-      "name": "Bag-Kian",
-      "price": 37600,
-      "image": [
-        "https://static.wixstatic.com/media/df8397_7b4bebd994b944728d3e7e38b3f4defc~mv2.jpg/v1/fill/w_626,h_626,al_c,q_85,usm_0.66_1.00_0.01/df8397_7b4bebd994b944728d3e7e38b3f4defc~mv2.jpg",
-        "https://static.wixstatic.com/media/df8397_33b4e418a9d64e94bd369cc46767ca80~mv2.jpg/v1/fill/w_626,h_626,al_c,q_85,usm_0.66_1.00_0.01/df8397_33b4e418a9d64e94bd369cc46767ca80~mv2.jpg"
-      ],
-      "description": "Bolso confeccionado en ecocuero. Interior forrado en tela. Cierre metalico.Bolsillo interno.",
-      "category": "bags",
-      "sale": true,
-      "featured": true,
       "new": false,
       "color": [
         "negro"
@@ -237,26 +221,6 @@
         "negro",
         "chocolate",
         "cherry"
-      ]
-    },
-    {
-      "id": 14,
-      "name": "Bag-Sharpey",
-      "price": 35000,
-      "image": [
-        "https://static.wixstatic.com/media/676d30_6eea0e7027eb454d8cdb2a6e505ee500~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_6eea0e7027eb454d8cdb2a6e505ee500~mv2.jpg",
-        "https://static.wixstatic.com/media/676d30_fea43bac79bf42d3ad8aab89f4cf469c~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_fea43bac79bf42d3ad8aab89f4cf469c~mv2.jpg"
-      ],
-      "description": "Cartera premium. Forrada y con bolsillo en su interior. Confeccionada con cierre. Tira regulable y desmontable.Detalles de ojalillos y hebilla grande en la parte frontal.",
-      "category": "bags",
-      "sale": false,
-      "superSale": true,
-      "featured": true,
-      "new": false,
-      "color": [
-        "negro",
-        "blanco",
-        "plateado"
       ]
     },
     {

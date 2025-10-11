@@ -19,15 +19,15 @@ export default function CategoryPage() {
           <div className="w-full h-[500px] md:h-[700px]">
             <div className="absolute inset-0 bg-black/40"></div>
             <div className="absolute inset-0 flex flex-col items-center justify-center z-10 px-4">
-              <div className="text-center mt-32">
+              {/* <div className="text-center mt-32">
                 <h1 className="text-4xl md:text-7xl font-black text-slate-100 py-3 px-8">
                   {id.toUpperCase()}
                 </h1>
-              </div>
+              </div> */}
             </div>
             <div className="absolute inset-0">
               <Image
-                src="https://images.unsplash.com/photo-1629104086258-48befa7ad1e6?q=80&w=1985&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                src="/diablitas.jpeg"
                 alt="hero image"
                 width={400}
                 height={400}
