@@ -9,7 +9,7 @@ const Products = () => {
     <section id="products" className="mb-32">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-5xl font-bold text-center my-12">
-          Productos Destacados
+          ULTIMAS UNIDADES
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-x-4 gap-y-12 mx-4 md:mx-12">
           {featured.map((product) => (
@@ -38,6 +38,29 @@ const Products = () => {
               </Link>
               <div className="space-y-1">
                 <h3 className="font-medium text-lg">{product.name}</h3>
+              </div>
+              <div className="flex items-end gap-2">
+                {product.sale ? (
+                  <span className="font-bold text-gray-800 text-xl lg:text-2xl">
+                    $
+                    {Math.floor((product.price - product.price * 0.15) / 100) *
+                      100}
+                  </span>
+                ) : (
+                  <span className="font-bold text-gray-800 text-xl lg:text-2xl">
+                    $ {product.price}
+                  </span>
+                )}
+                {product.sale && (
+                  <span className="mb-0.5 text-red-500 line-through text-lg">
+                    ${product.price}
+                  </span>
+                )}
+                {product.superSale && (
+                  <span className="mb-0.5 text-red-500 text-lg font-semibold">
+                    ¡Oferta de la semana!
+                  </span>
+                )}
               </div>
             </div>
           ))}

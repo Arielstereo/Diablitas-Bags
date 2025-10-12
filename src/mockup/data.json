@@ -169,7 +169,7 @@
     {
       "id": 11,
       "name": "Minibag-Milan",
-      "price": 38500,
+      "price": 37700,
       "image": [
         "https://static.wixstatic.com/media/676d30_bcdae18039f74c619bed3a4f9d9606fa~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_bcdae18039f74c619bed3a4f9d9606fa~mv2.jpg",
         "https://static.wixstatic.com/media/676d30_e0bbcffe178242e283d824e542d960da~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_e0bbcffe178242e283d824e542d960da~mv2.jpg"
@@ -207,7 +207,7 @@
     {
       "id": 13,
       "name": "Minibag-Morena",
-      "price": 36700,
+      "price": 36500,
       "image": [
         "https://static.wixstatic.com/media/676d30_654cd5ab51224c59955d6495008c1ca3~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_654cd5ab51224c59955d6495008c1ca3~mv2.jpg",
         "v"
@@ -221,6 +221,26 @@
         "negro",
         "chocolate",
         "cherry"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Bag-Sharpey",
+      "price": 35000,
+      "image": [
+        "https://static.wixstatic.com/media/676d30_6eea0e7027eb454d8cdb2a6e505ee500~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_6eea0e7027eb454d8cdb2a6e505ee500~mv2.jpg",
+        "https://static.wixstatic.com/media/676d30_fea43bac79bf42d3ad8aab89f4cf469c~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_fea43bac79bf42d3ad8aab89f4cf469c~mv2.jpg"
+      ],
+      "description": "Cartera premium. Forrada y con bolsillo en su interior. Confeccionada con cierre. Tira regulable y desmontable.Detalles de ojalillos y hebilla grande en la parte frontal.",
+      "category": "bags",
+      "sale": false,
+      "superSale": false,
+      "featured": false,
+      "new": false,
+      "color": [
+        "negro",
+        "blanco",
+        "plateado"
       ]
     },
     {
@@ -271,8 +291,8 @@
       ],
       "description": "Minibag de eco cuero. Toda forrada en su interior con bolsillo. Detalles de hebilla en la parte frontal, tira regulable con ojalillos y detalles de argollones. Tira  regulable con hebilla cuadrada. Bolsillo externo atrás con cierres metalicos.",
       "category": "minibags",
-      "sale": true,
-      "featured": true,
+      "sale": false,
+      "featured": false,
       "new": false,
       "color": [
         "negro",
@@ -283,7 +303,7 @@
     {
       "id": 18,
       "name": "Minibag-Stacy",
-      "price": 31500,
+      "price": 31200,
       "image": [
         "https://static.wixstatic.com/media/676d30_34a738d23b1340749cfa1fb50822a625~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_34a738d23b1340749cfa1fb50822a625~mv2.jpg",
         "https://static.wixstatic.com/media/676d30_700b4463a6e1411ebcf904e3a5bb11c0~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/676d30_700b4463a6e1411ebcf904e3a5bb11c0~mv2.jpg"

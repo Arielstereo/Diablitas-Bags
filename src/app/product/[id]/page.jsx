@@ -10,7 +10,6 @@ const page = () => {
   const { id } = useParams();
 
   const product = products.find((p) => p.name === id);
-  console.log(product);
 
   const [image, setImage] = useState(product?.image[0]);
 
